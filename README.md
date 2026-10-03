@@ -57,4 +57,5 @@ Found something out of date? Open an issue with a link to the operator's or make
 | `sunset.csv` | 2G、3G 与 NB-IoT 退网事件 | 77 |
 
 **授权**：CC BY 4.0，可自由使用、分享和修改（包括商业用途），注明出处即可：
-> 全球频段通 · 超级联接（https://www.aiotrf.com/ai/band-atlas/），CC BY 4.0
+> 全球频段通 · 超级联接（<https://www.aiotrf.com/ai/band-atlas/>），CC BY 4.0
+
