@@ -1,0 +1,49 @@
+﻿indicator,indicator_en,region,date,value,unit,kind,source
+gl-iot-devices,"Connected IoT devices, worldwide",gl,2024-12,185,count,measured,iota-2025
+gl-iot-devices,"Connected IoT devices, worldwide",gl,2025-12,211,count,estimate,iota-2025
+gl-cell-iot,"Cellular IoT connections, worldwide",gl,2025-12,42,count,measured,berg-cell
+gl-module-yoy,Cellular IoT module shipments (year on year),gl,2025-03,16,% yoy,measured,cp-iot-q1-25
+gl-module-yoy,Cellular IoT module shipments (year on year),gl,2025-06,17,% yoy,measured,cp-iot-q2-25
+gl-module-yoy,Cellular IoT module shipments (year on year),gl,2025-09,10,% yoy,measured,cp-iot-q3
+gl-module-yoy,Cellular IoT module shipments (year on year),gl,2026-06,11,% yoy,measured,cp-iot-q2-26
+gl-sat-iot,"Satellite IoT connections, worldwide",gl,2025-12,1360,10k,measured,abi-sat
+cn-5g-bs,"5G base stations, China",cn,2025-04,443.9,10k,measured,miit-2604
+cn-5g-bs,"5G base stations, China",cn,2025-08,464.6,10k,measured,miit-2508
+cn-5g-bs,"5G base stations, China",cn,2025-12,483.8,10k,measured,miit-2025
+cn-5g-bs,"5G base stations, China",cn,2026-04,500.9,10k,measured,miit-2604
+cn-5g-bs,"5G base stations, China",cn,2026-05,505.3,10k,measured,miit-2605
+cn-5g-bs,"5G base stations, China",cn,2026-06,510.2,10k,measured,miit-2606
+cn-5g-bs,"5G base stations, China",cn,2026-07,515.4,10k,measured,miit-2607
+cn-5g-users,"5G mobile users, China",cn,2025-08,11.54,100m,measured,miit-2508
+cn-5g-users,"5G mobile users, China",cn,2025-12,12.04,100m,measured,miit-2025
+cn-5g-users,"5G mobile users, China",cn,2026-04,12.62,100m,measured,miit-2604
+cn-5g-users,"5G mobile users, China",cn,2026-06,12.88,100m,measured,miit-2606
+cn-5g-users,"5G mobile users, China",cn,2026-07,13.03,100m,measured,miit-2607
+cn-iot,"Mobile IoT terminals, China",cn,2025-08,28.72,100m,measured,miit-2508
+cn-iot,"Mobile IoT terminals, China",cn,2026-05,29.8,100m,measured,miit-2605
+cn-iot,"Mobile IoT terminals, China",cn,2026-06,29.94,100m,measured,miit-2606
+cn-iot,"Mobile IoT terminals, China",cn,2026-07,29.93,100m,measured,miit-2607b
+cn-5g-share,"5G share of mobile base stations, China",cn,2025-08,36.3,%,measured,miit-2508
+cn-5g-share,"5G share of mobile base stations, China",cn,2025-12,37.6,%,measured,miit-2025
+cn-5g-share,"5G share of mobile base stations, China",cn,2026-04,38.7,%,measured,miit-2604
+cn-5g-share,"5G share of mobile base stations, China",cn,2026-05,39.0,%,measured,miit-2605
+cn-5g-share,"5G share of mobile base stations, China",cn,2026-06,39.1,%,measured,miit-2606
+cn-redcap-bs,"5G RedCap base stations, China",cn,2025-12,206.4,10k,measured,miit-2025
+gl-5g-subs,"5G subscriptions, worldwide",gl,2026-03,31.0,100m,measured,elespanol-emr
+gl-redcap-inv,Operators investing in RedCap,gl,2025-03,26,count,measured,gsa-redcap-2503
+gl-redcap-inv,Operators investing in RedCap,gl,2025-04,30,count,measured,gsa-redcap-2504
+gl-redcap-inv,Operators investing in RedCap,gl,2025-09,34,count,measured,gsa-redcap-2509
+gl-redcap-inv,Operators investing in RedCap,gl,2026-03,42,count,measured,gsa-redcap-2604
+gl-redcap-live,Operators with commercial RedCap,gl,2025-04,6,count,measured,gsa-redcap-2504
+gl-redcap-live,Operators with commercial RedCap,gl,2025-09,8,count,measured,gsa-redcap-2604
+gl-redcap-live,Operators with commercial RedCap,gl,2026-03,14,count,measured,gsa-redcap-2604
+gl-sa,Operators with commercial 5G SA,gl,2026-04,95,count,measured,gsa-redcap-vp
+gl-slicing,Commercial 5G SA network-slicing offers,gl,2025-12,65,count,measured,ericsson-2606
+gl-slicing,Commercial 5G SA network-slicing offers,gl,2026-06,84,count,measured,ericsson-2606
+gl-lpwa,Commercial Cat-M1 and NB-IoT networks,gl,2025-11,269,count,measured,gsma-iot
+gl-sunset,"2G/3G switch-offs (done, planned or under way)",gl,2026-06,313,count,measured,gsa-sunset
+gl-cat1bis,Cat.1 bis share of cellular IoT module shipments,gl,2026-06,50,% (more than),measured,cp-iot-q2-26
+gl-iot-devices,"Connected IoT devices, worldwide",gl,2030-12,390,count,forecast,iota-2025
+gl-iot-devices,"Connected IoT devices, worldwide",gl,2035-12,500,count,forecast,iota-2035
+gl-cell-iot,"Cellular IoT connections, worldwide",gl,2030-12,65,count,forecast,berg-cell
+gl-sat-iot,"Satellite IoT connections, worldwide",gl,2029-12,3250,10k,forecast,berg-sat

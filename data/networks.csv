@@ -1,0 +1,83 @@
+﻿country,operator_id,operator,group,sa,sa_date,sa_source,redcap,redcap_date,redcap_source,lte_m,lte_m_source,nb_iot,nb_iot_source,2g,2g_date,2g_source,3g,3g_date,3g_source
+GB,ee,EE,BT Group,yes,2024,rcr-ee-sa,trial,,fierce-bt,unlisted,gsma-iot,unlisted,gsma-iot,planned,2033,csl-uk,off,2024,csl-uk
+GB,o2,O2,Virgin Media O2,yes,2024-02,vmo2-sa,none,,gsa-redcap,unlisted,gsma-iot,unlisted,gsma-iot,planned,2033,csl-uk,off,2026-03,csl-uk
+GB,vodafone,Vodafone,VodafoneThree,yes,2023-06,rcr-vf-sa,none,,gsa-redcap,yes,gsma-iot,yes,gsma-iot,planned,2033,csl-uk,off,2024,csl-uk
+GB,three,Three,VodafoneThree,integrating,,vf-merger,none,,gsa-redcap,unlisted,gsma-iot,unlisted,gsma-iot,never,,,off,2024,csl-uk
+US,att,AT&T,AT&T,yes,2025-10,att-sa,yes,2025-07,att-sa,yes,gsma-iot,off,lr-att-nb,off,2017,lr-tmo,off,2022,jiemian
+US,verizon,Verizon,Verizon,rolling,,urgent-us,unclear,,phonescoop,yes,gsma-iot,yes,gsma-iot,off,2022-12-31,jiemian,off,2022-12-31,jiemian
+US,t-mobile,T-Mobile,T-Mobile US,yes,2020,phonescoop,yes,,gsa-redcap-vp,yes,gsma-iot,yes,gsma-iot,off,2026-08-03,aa-tmo,off,2022-07-01,lr-tmo
+KR,skt,SK Telecom,SK Group,b2b,,cms-kr,none,,,unlisted,gsma-iot,unlisted,gsma-iot,off,2020-07,tp-skt-2g,ending,2027,mt-3g
+KR,kt,KT,KT Corporation,yes,2021,cms-kr,none,,,yes,gsma-iot,yes,gsma-iot,off,2012,yonhap-2g,ending,,mt-3g
+KR,lg-uplus,LG U+,LG Uplus,nsa,,cms-kr,none,,,unlisted,gsma-iot,yes,gsma-iot,off,2021-06,yonhap-2g,never,,mt-3g
+CN,china-mobile,China Mobile,中国移动,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,unlisted,gsma-iot,yes,gsma-iot,off,2025-12-31,jiemian,off,,hn-cn
+CN,china-telecom,China Telecom,中国电信,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,unlisted,gsma-iot,yes,gsma-iot,ending,,ithome-cu,ending,2020-06,ithome-cu
+CN,china-unicom,China Unicom,中国联通,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,unlisted,gsma-iot,yes,gsma-iot,ending,,ithome-cu,ending,2026-06-15,itsb-3g
+CN,china-broadnet,China Broadnet,中国广电,unknown,,,unknown,,,unlisted,gsma-iot,unlisted,gsma-iot,never,,,never,,
+JP,ntt-docomo,NTT docomo,NTT,yes,2021-12,docomo-sa,none,,,yes,gsma-iot,off,eseye-nb,off,2012,itsb-3g,off,2026-03-31,yokohama-3g
+JP,kddi,KDDI (au),KDDI,yes,2022,comsoc-kddi-sa,none,,,yes,gsma-iot,unlisted,gsma-iot,off,2012,itsb-3g,off,2022-03-31,yokohama-3g
+JP,softbank,SoftBank,SoftBank Corp.,yes,2021,rcr-sb-sa,yes,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,off,2012,itsb-3g,off,2024-04-15,yokohama-3g
+JP,rakuten,Rakuten Mobile,Rakuten Group,nsa,,obs-rakuten,none,,,unlisted,gsma-iot,unlisted,gsma-iot,never,,rcr-jp-5g,never,,rcr-jp-5g
+DE,telekom-de,Deutsche Telekom,Deutsche Telekom,yes,2024-10-16,dpa-telekom-sa,yes,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,planned,2028-06-30,teltarif-2g,off,2021-06-30,techbook-3g
+DE,vodafone-de,Vodafone,Vodafone Group,yes,2021-04,fierce-o2-sa,none,,,yes,gsma-iot,yes,gsma-iot,planned,2028-09,pctipp-vf-2g,off,2021-06,mobiflip-o2-3g
+DE,o2-de,O2 Telefónica,Telefónica,yes,2023-10-10,fierce-o2-sa,yes,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,planned,2028-H2,teltarif-2g,off,2021-12-30,mobiflip-o2-3g
+FR,orange-fr,Orange,Orange,yes,2025-03,degroup-sa,none,,,yes,gsma-iot,yes,gsma-iot,ending,2026-12,arcep-2g3g,planned,2028,arcep-2g3g
+FR,sfr,SFR,Altice France,yes,2025-10,degroup-sa,none,,,yes,gsma-iot,yes,gsma-iot,planned,2026-12-15,arcep-2g3g,planned,2028-12,arcep-2g3g
+FR,bouygues,Bouygues Telecom,Bouygues,yes,2025-06,degroup-sa,none,,,yes,gsma-iot,yes,gsma-iot,planned,2026-12-15,arcep-2g3g,planned,2029-12,arcep-2g3g
+FR,free-fr,Free Mobile,Iliad,yes,2024-09,fierce-free-sa,none,,,unlisted,gsma-iot,unlisted,gsma-iot,never,,arcep-2g3g,none,,arcep-2g3g
+AE,etisalat,e& (Etisalat),Etisalat,yes,2023-10,cms-ae,yes,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,kimovil-ae,off,2022-12,powertec-eand
+AE,du,du,EITC,yes,2023,cms-ae,none,,,unlisted,gsma-iot,yes,gsma-iot,none,,wiki-du,none,,powertec-du
+SA,stc-sa,stc,stc Group,yes,2020-09,icio-stc,trial,,gsa-redcap-2604,unlisted,gsma-iot,yes,gsma-iot,planned,2025-Q4,stc-3g,off,2022-Q4,stc-3g
+SA,mobily,Mobily,Etihad Etisalat,unknown,,,trial,,gsa-redcap-2604,yes,gsma-iot,unlisted,gsma-iot,none,,kimovil-sa,none,,powertec-mobily
+SA,zain-sa,Zain KSA,Zain Group,unknown,,,trial,,gsa-redcap-2604,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-sa,off,2024-01,powertec-zain
+QA,ooredoo-qa,Ooredoo Qatar,Ooredoo Group,unknown,,,none,,,unlisted,gsma-iot,yes,gsma-iot,none,,kimovil-qa,off,2025-12-31,cra-3g
+QA,vodafone-qa,Vodafone Qatar,Vodafone Qatar,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-qa,off,2025-12-31,cra-3g
+KW,ooredoo-kw,Ooredoo Kuwait,Ooredoo Group,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-kw,none,,powertec-ooredoo-kw
+KW,zain-kw,Zain Kuwait,Zain Group,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-kw,none,,kimovil-kw
+KW,stc-kw,stc Kuwait,stc Group,yes,,gsa-redcap-2604,yes,,gsa-redcap-2604,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-kw,none,,kimovil-kw
+IL,partner-il,Partner,Partner Communications,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
+IL,hot-il,HOT Mobile,HOT,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
+IL,cellcom-il,Cellcom,Cellcom Israel,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
+IL,pelephone-il,Pelephone,Bezeq,unknown,,,none,,,yes,gsma-iot,yes,gsma-iot,never,,kimovil-il,off,2025-12-31,partner-sunset
+CA,rogers-ca,Rogers,Rogers Communications,unknown,,,unclear,,gsa-redcap,yes,gsma-iot,yes,gsma-iot,none,,,off,2025,ms-3g-ca
+CA,bell-ca,Bell,BCE,unknown,,,unknown,,,yes,gsma-iot,unlisted,gsma-iot,none,,,planned,2027-03-01,ct-3g-ca
+CA,telus-ca,TELUS,TELUS,unknown,,,unknown,,,yes,gsma-iot,unlisted,gsma-iot,none,,,planned,2027-03-01,telus-3g
+IT,tim-it,TIM,Telecom Italia,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,none,,,off,2022,sostariffe-3g-it
+IT,vodafone-it,Vodafone,Fastweb + Vodafone (Swisscom),unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,off,2021,sostariffe-3g-it
+IT,windtre-it,WindTre,CK Hutchison,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,ending,2025,comparasemplice-3g
+IT,iliad-it,Iliad,Iliad,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,never,,kimovil-it,none,,tecnoandroid-iliad
+NL,kpn,KPN,KPN,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,unlisted,,planned,2027,acm-2g3g,off,2022,totaltele-kpn
+NL,vodafone-nl,Vodafone,VodafoneZiggo,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,acm-2g3g,off,2020,bright-2g
+NL,odido,Odido,Odido (formerly T-Mobile Netherlands),unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,off,2023,acm-2g3g,ending,2026,emerce-odido
+PL,orange-pl,Orange,Orange Polska,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,ending,2025,telepolis-pl
+PL,tmobile-pl,T-Mobile,Deutsche Telekom,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,off,2023,telepolis-pl
+PL,play-pl,Play,Iliad,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,ending,2026,prepaid-pl
+PL,plus-pl,Plus,Polkomtel (Cyfrowy Polsat),unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,none,,
+MX,telcel,Telcel,América Móvil,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,unlisted,,none,,,none,,
+MX,att-mx,AT&T,AT&T,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,never,,operatorwatch-mx,none,,
+MX,altan,Altán,"Altán Redes (Red Compartida, wholesale)",unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,never,,altan-redes,never,,altan-redes
+BR,vivo-br,Vivo,Telefônica Brasil,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,dc-vivo-2g,none,,
+BR,claro-br,Claro,América Móvil,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,none,,
+BR,tim-br,TIM,TIM Brasil (Telecom Italia),unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,none,,,none,,
+IN,jio,Jio,Reliance Jio,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,never,,lightreading-vi,never,,lightreading-vi
+IN,airtel,Airtel,Bharti Airtel,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,telenet-airtel,off,2020,telenet-airtel
+IN,vi-in,Vi,Vodafone Idea,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,voicendata-vi,ending,,voicendata-vi
+IN,bsnl,BSNL,Government of India,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,none,,
+SG,singtel,Singtel,Singtel,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,off,2017,ptw-sg-2g,off,2024,abi-3g-sg
+SG,starhub,StarHub,StarHub,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,off,2017,ptw-sg-2g,off,2024,abi-3g-sg
+SG,m1,M1,M1 (Keppel),unknown,,,yes,,gsa-redcap-2604,unlisted,,yes,gsma-iot,off,2017,ptw-sg-2g,off,2024,abi-3g-sg
+SG,simba,SIMBA,"SIMBA Telecom (Tuas, formerly TPG Singapore)",unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,never,,powertec-simba,never,,powertec-simba
+ID,telkomsel,Telkomsel,Telkom Indonesia,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,none,,,ending,2022,prepaid-id
+ID,indosat,Indosat,Indosat Ooredoo Hutchison,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,ending,2022,prepaid-id
+ID,xlsmart,XLSMART,XL Axiata and Smartfren (merged),unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,none,,,ending,2022,prepaid-id
+TR,turkcell,Turkcell,Turkcell,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,none,,
+TR,vodafone-tr,Vodafone,Vodafone Türkiye,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,none,,
+TR,turktelekom,Türk Telekom,Türk Telekom,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,none,,
+ES,movistar-es,Movistar,Telefónica,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,planned,2026,bandaancha-mov,ending,2027,xataka-3g-es
+ES,vodafone-es,Vodafone,Zegona (Vodafone brand),unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,none,,,off,2024,xataka-3g-es
+ES,masorange-es,MasOrange,"MasOrange (Orange, Yoigo, MásMóvil)",yes,,gsa-redcap,yes,,gsa-redcap,yes,gsma-iot,yes,gsma-iot,planned,2030-12-31,roams-masorange,planned,2027-12-31,roams-masorange
+AU,telstra-au,Telstra,Telstra,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,none,,,off,2024-10-28,bizgov-3g-au
+AU,optus-au,Optus,Singtel,yes,,gsa-redcap,yes,,gsa-redcap,unlisted,gsma-iot,yes,gsma-iot,none,,,off,2024-10-28,bizgov-3g-au
+AU,vodafone-au,Vodafone,TPG Telecom,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,none,,,off,2024-01,dcd-au-3g
+NZ,spark-nz,Spark,Spark New Zealand,unknown,,,unknown,,,yes,gsma-iot,unlisted,gsma-iot,none,,,off,2026-03-31,dcd-spark-3g
+NZ,one-nz,One NZ,One New Zealand (formerly Vodafone NZ),unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,off,2026-03,nzb-2g,off,2026-03,dcd-spark-3g
+NZ,2degrees-nz,2degrees,2degrees,unknown,,,unknown,,,unlisted,gsma-iot,unlisted,gsma-iot,none,,,off,2026-02,dcd-spark-3g

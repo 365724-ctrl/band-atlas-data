@@ -1,0 +1,32 @@
+﻿id,name,vendor,kind,category,region,lte_bands,nr_bands,umts_bands,gsm_mhz,sources
+eg25-g,Quectel EG25-G,Quectel,module,Cat 4,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B18 B19 B20 B25 B26 B28 B38 B39 B40 B41,,B1/B2/B4/B5/B6/B8/B19,850/900/1800/1900,q-eg25g erf-eg25g
+sim7600g-h,SIMCom SIM7600G-H,SIMCom,module,Cat 4,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B18 B19 B20 B25 B26 B28 B66 B34 B38 B39 B40 B41,,B1/B2/B4/B5/B6/B8/B19,850/900/1800/1900,sc-7600gh avnet-7600gh
+bg95-m3,Quectel BG95-M3,Quectel,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B18 B19 B20 B25 B26 B27 B28 B66 B71 B85,,,850/900/1800/1900,q-bg95 cnx-bg95
+eg915u-eu,Quectel EG915U-EU,Quectel,module,Cat 1 bis,"EMEA, Australia, New Zealand, Brazil",B1 B3 B5 B7 B8 B20 B28,,,850/900/1800/1900,q-eg915u mct-eg915u
+sara-r510m8s,u-blox SARA-R510M8S,u-blox,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B18 B19 B20 B25 B26 B28 B66 B71 B85,,,,ub-r5ds macnica-r510
+nrf9160,Nordic nRF9160,Nordic Semiconductor,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B14 B17 B18 B19 B20 B25 B26 B28 B66,,,,nordic-9160 digikey-9160
+ec25-e,Quectel EC25-E,Quectel,module,Cat 4,EMEA,B1 B3 B5 B7 B8 B20 B38 B40 B41,,B1/B5/B8,900/1800,q-ec25 erf-ec25e
+ec200u-eu,Quectel EC200U-EU,Quectel,module,Cat 1 bis,EMEA,B1 B3 B5 B7 B8 B20 B28 B38 B40 B41,,,850/900/1800/1900,q-ec200u lm-ec200u
+a7670e,SIMCom A7670E,SIMCom,module,Cat 1,EMEA and parts of Asia,B1 B3 B5 B7 B8 B20,,,900/1800,sc-a7670 erf-a7670e
+sim7080g,SIMCom SIM7080G,SIMCom,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B14 B18 B19 B20 B25 B26 B27 B28 B66 B71 B85,,,,sc-7080g macnica-7080g
+bg96,Quectel BG96,Quectel,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B18 B19 B20 B25 B26 B28 B39,,,850/900/1800/1900,q-bg96 avnet-bg96
+eg21-g,Quectel EG21-G,Quectel,module,Cat 1,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B18 B19 B20 B25 B26 B28 B38 B39 B40 B41,,B1/B2/B4/B5/B6/B8/B19,850/900/1800/1900,q-eg21g mct-eg21g
+lara-r6001d,u-blox LARA-R6001D,u-blox,module,Cat 1,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B18 B19 B20 B26 B28 B38 B39 B40 B41,,B1/B2/B5/B8,850/900/1800/1900,ub-lara-r6 erf-lara-r6
+me910c1-ww,Telit ME910C1-WW,Telit Cinterion,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B18 B19 B20 B26 B28,,,850/900/1800/1900,telit-me910c1 sectron-me910c1
+rg255c-gl,Quectel RG255C-GL,Quectel,module,5G RedCap,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B14 B17 B18 B19 B20 B25 B26 B28 B30 B66 B70 B71 B34 B38 B39 B40 B41 B42 B43 B48,n1 n2 n3 n5 n7 n8 n12 n13 n14 n18 n20 n25 n26 n28 n30 n38 n40 n41 n48 n66 n70 n71 n77 n78 n79,,,q-rg255c tmo-rg255c
+trb140-0,Teltonika TRB140 (0*****),Teltonika,module,DTU / Gateway · Cat 4,"DTU / industrial gateway · Europe, Middle East, Africa, Korea, Thailand",B1 B3 B7 B8 B20 B28 B38 B40 B41,,B1/B8,900/1800,tn-trb140 tn-trb140-ds mx-trb140
+trb140-1,Teltonika TRB140 (1*****),Teltonika,module,DTU / Gateway · Cat 4,"DTU / industrial gateway · South America, Australia, New Zealand",B1 B2 B3 B4 B5 B7 B8 B28 B40,,,,tn-trb140-ds pt-trb140
+rutx12-0,Teltonika RUTX12 (0*****),Teltonika,module,Industrial router · Cat 6,"Dual-modem industrial router · Europe, Middle East, Africa, Australia, APAC, Brazil, Malaysia",B1 B3 B5 B7 B8 B20 B28 B38 B40 B41,,B1/B3/B5/B8,,tn-rutx12
+rutx12-1,Teltonika RUTX12 (1*****),Teltonika,module,Industrial router · Cat 6,Dual-modem industrial router · North America,B2 B4 B5 B7 B12 B13 B25 B26 B30 B66,,B2/B4/B5,,tn-rutx12
+fmc130-me3,Teltonika FMC130-ME3,Teltonika,module,Vehicle tracker · Cat 1,Vehicle tracker · Europe and most of the world,B1 B3 B7 B8 B20 B28 B38 B40 B41,,,850/900/1800/1900,tt-fmc130 tt-fmc130-ds vk-fmc130
+fmc130-mcib0,Teltonika FMC130-MCIB0,Teltonika,module,Vehicle tracker · Cat 1,Vehicle tracker · Latin America,B1 B2 B3 B4 B5 B7 B8 B20 B28 B40,,,850/900/1800/1900,tt-fmc130 tt-fmc130-ds
+ec25-af,Quectel EC25-AF,Quectel,module,Cat 4,North America,B2 B4 B5 B12 B13 B14 B66 B71,,B2/B4/B5,,q-ec25 mouser-ec25 erf-ec25af
+ec25-eux,Quectel EC25-EUX,Quectel,module,Cat 4,Europe (with B28),B1 B3 B7 B8 B20 B28 B38 B40 B41,,B1/B8,,q-ec25 mouser-ec25
+ec25-mx,Quectel EC25-MX,Quectel,module,Cat 4,Mexico,B2 B4 B5 B7 B28 B66,,B2/B4/B5,,dt-ec25-var mouser-ec25
+ec25-au,Quectel EC25-AU,Quectel,module,Cat 4,"Australia, New Zealand, Latin America",B1 B2 B3 B4 B5 B7 B8 B28 B40,,B1/B2/B5/B8,850/900/1800/1900,dt-ec25-var mouser-ec25
+e3372h-320,Huawei E3372h-320,Huawei,module,Dongle · Cat 4,"USB dongle · Europe, Asia-Pacific and most of the world",B1 B3 B7 B8 B20 B28,,B1/B8,850/900/1800/1900,gcf-e3372h320 so-e3372h320
+usr-g771-e,USR IOT USR-G771-E,USR IOT,module,DTU · Cat 1,RS232/RS485 DTU · Europe,B1 B3 B7 B8 B20 B28,,,,gt-g771e
+usr-dr154-e,USR IOT USR-DR154-E,USR IOT,module,DTU · Cat 1,Lipstick-size RS485 DTU · international version,B1 B3 B5 B7 B8 B20 B28,,,,usr-dr154-ds sos-dr154e
+mf833v,MF833V,Hyper Nexus,ours,LTE Cat 4,Hyper Nexus dongle,B1 B2 B3 B4 B5 B7 B8 B12 B17 B20,,,,hn-products
+dongle-400,Dongle 400,Hyper Nexus,ours,LTE Cat 4,Hyper Nexus dongle,B1 B2 B3 B4 B5 B7 B8 B12 B17 B20,,,,hn-products
+f40,F40,Hyper Nexus,ours,5G RedCap,Hyper Nexus dongle,B1 B3 B5 B8 B28 B34 B38 B39 B40 B41,n1 n3 n5 n8 n28 n41 n78,,,hn-products

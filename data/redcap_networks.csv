@@ -1,0 +1,28 @@
+﻿market,market_name,operator,status,source
+CN,China,China Mobile,commercial,gsa-redcap-2604
+CN,China,China Telecom,commercial,gsa-redcap-2604
+CN,China,China Unicom,commercial,gsa-redcap-2604
+US,United States,T-Mobile,commercial,gsa-redcap-2604
+US,United States,AT&T,commercial,gsa-redcap-2604
+DE,Germany,Telefónica,commercial,gsa-redcap-2604
+DE,Germany,Deutsche Telekom,commercial,gsa-redcap-2604
+JP,Japan,SoftBank,commercial,gsa-redcap-2604
+SG,Singapore,M1,commercial,gsa-redcap-2604
+ES,Spain,MasOrange,commercial,gsa-redcap-2604
+AE,United Arab Emirates,e&,commercial,gsa-redcap-2604
+AU,Australia,Optus,commercial,gsa-redcap-2604
+KW,Kuwait,stc,commercial,gsa-redcap-2604
+PH,Philippines,Dito,commercial,gsa-redcap-2604
+CA,Canada,Rogers (incl. Fido),deploying,gsa-redcap-2604
+BH,Bahrain,,trial,gsa-redcap-2604
+CZ,Czechia,,trial,gsa-redcap-2604
+FI,Finland,,trial,gsa-redcap-2604
+IN,India,,trial,gsa-redcap-2604
+ID,Indonesia,,trial,gsa-redcap-2604
+MY,Malaysia,,trial,gsa-redcap-2604
+OM,Oman,,trial,gsa-redcap-2604
+SA,Saudi Arabia,,trial,gsa-redcap-2604
+KR,South Korea,,trial,gsa-redcap-2604
+TH,Thailand,,trial,gsa-redcap-2604
+TR,Türkiye,,trial,gsa-redcap-2604
+GB,United Kingdom,,trial,gsa-redcap-2604

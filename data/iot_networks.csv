@@ -1,0 +1,209 @@
+﻿market,market_name,operator,technology,status,sources
+US,United States,AT&T,LTE-M,commercial,gsma-iot
+US,United States,T-Mobile,LTE-M,commercial,gsma-iot
+US,United States,U.S. Cellular,LTE-M,commercial,gsma-iot
+US,United States,Verizon,LTE-M,commercial,gsma-iot
+US,United States,T-Mobile,NB-IoT,commercial,gsma-iot
+US,United States,Verizon,NB-IoT,commercial,gsma-iot
+US,United States,AT&T,NB-IoT,shut down 2025-Q1,lr-att-nb;cp-att-nb
+CA,Canada,Bell,LTE-M,commercial,gsma-iot
+CA,Canada,Rogers,LTE-M,commercial,gsma-iot
+CA,Canada,Telus,LTE-M,commercial,gsma-iot
+CA,Canada,Rogers,NB-IoT,commercial,gsma-iot
+MX,Mexico,América Móvil,LTE-M,commercial,gsma-iot
+MX,Mexico,AT&T,LTE-M,commercial,gsma-iot
+MX,Mexico,AT&T,NB-IoT,commercial,gsma-iot
+BR,Brazil,Telefónica,LTE-M,commercial,gsma-iot
+BR,Brazil,TIM,NB-IoT,commercial,gsma-iot
+BR,Brazil,Telefónica,NB-IoT,commercial,gsma-iot
+AR,Argentina,Telefónica,LTE-M,commercial,gsma-iot
+AR,Argentina,Telefónica,NB-IoT,commercial,gsma-iot
+CO,Colombia,Telefónica,LTE-M,commercial,gsma-iot
+CO,Colombia,Telefónica,NB-IoT,commercial,gsma-iot
+UY,Uruguay,Antel,NB-IoT,commercial,gsma-iot
+GB,United Kingdom,Vodafone,LTE-M,commercial,gsma-iot
+GB,United Kingdom,Vodafone,NB-IoT,commercial,gsma-iot
+IE,Ireland,Vodafone,LTE-M,commercial,gsma-iot
+IE,Ireland,Vodafone,NB-IoT,commercial,gsma-iot
+FR,France,Orange,LTE-M,commercial,gsma-iot
+FR,France,Bouygues Telecom (Objenious),LTE-M,commercial,gsma-iot
+FR,France,SFR,LTE-M,commercial,gsma-iot
+FR,France,Orange,NB-IoT,commercial,gsma-iot
+FR,France,Bouygues Telecom (Objenious),NB-IoT,commercial,gsma-iot
+FR,France,SFR,NB-IoT,commercial,gsma-iot
+DE,Germany,Deutsche Telekom,LTE-M,commercial,gsma-iot
+DE,Germany,Telefónica,LTE-M,commercial,gsma-iot
+DE,Germany,Vodafone,LTE-M,commercial,gsma-iot
+DE,Germany,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+DE,Germany,Telefónica,NB-IoT,commercial,gsma-iot
+DE,Germany,Vodafone,NB-IoT,commercial,gsma-iot
+NL,Netherlands,Deutsche Telekom,LTE-M,commercial,gsma-iot
+NL,Netherlands,KPN,LTE-M,commercial,gsma-iot
+NL,Netherlands,Vodafone,LTE-M,commercial,gsma-iot
+NL,Netherlands,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+NL,Netherlands,Vodafone,NB-IoT,commercial,gsma-iot
+BE,Belgium,Orange,LTE-M,commercial,gsma-iot
+BE,Belgium,BASE (Telenet),NB-IoT,commercial,gsma-iot
+BE,Belgium,Orange,NB-IoT,commercial,gsma-iot
+BE,Belgium,Proximus,NB-IoT,commercial,gsma-iot
+LU,Luxembourg,POST Luxembourg,LTE-M,commercial,gsma-iot
+LU,Luxembourg,Proximus,NB-IoT,commercial,gsma-iot
+CH,Switzerland,Sunrise,LTE-M,commercial,gsma-iot
+CH,Switzerland,Swisscom,LTE-M,commercial,gsma-iot
+CH,Switzerland,Sunrise,NB-IoT,commercial,gsma-iot
+CH,Switzerland,Swisscom,NB-IoT,commercial,gsma-iot
+LI,Liechtenstein,Swisscom,LTE-M,commercial,gsma-iot
+LI,Liechtenstein,Swisscom,NB-IoT,commercial,gsma-iot
+AT,Austria,A1,LTE-M,commercial,gsma-iot
+AT,Austria,Deutsche Telekom,LTE-M,commercial,gsma-iot
+AT,Austria,A1,NB-IoT,commercial,gsma-iot
+AT,Austria,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+IT,Italy,Vodafone,LTE-M,commercial,gsma-iot
+IT,Italy,TIM,NB-IoT,commercial,gsma-iot
+IT,Italy,Vodafone,NB-IoT,commercial,gsma-iot
+MT,Malta,Vodafone,LTE-M,commercial,gsma-iot
+MT,Malta,Melita,NB-IoT,commercial,gsma-iot
+MT,Malta,Vodafone,NB-IoT,commercial,gsma-iot
+ES,Spain,Orange,LTE-M,commercial,gsma-iot
+ES,Spain,Telefónica,LTE-M,commercial,gsma-iot
+ES,Spain,Vodafone,LTE-M,commercial,gsma-iot
+ES,Spain,Orange,NB-IoT,commercial,gsma-iot
+ES,Spain,Telefónica,NB-IoT,commercial,gsma-iot
+ES,Spain,Vodafone,NB-IoT,commercial,gsma-iot
+PT,Portugal,Vodafone,LTE-M,commercial,gsma-iot
+PT,Portugal,Altice,NB-IoT,commercial,gsma-iot
+PT,Portugal,NOS,NB-IoT,commercial,gsma-iot
+PT,Portugal,Vodafone,NB-IoT,commercial,gsma-iot
+DK,Denmark,Telenor,LTE-M,commercial,gsma-iot
+DK,Denmark,Telia,LTE-M,commercial,gsma-iot
+DK,Denmark,TDC,NB-IoT,commercial,gsma-iot
+DK,Denmark,Telenor,NB-IoT,commercial,gsma-iot
+DK,Denmark,Telia,NB-IoT,commercial,gsma-iot
+NO,Norway,Telenor,LTE-M,commercial,gsma-iot
+NO,Norway,Telia,LTE-M,commercial,gsma-iot
+NO,Norway,Telenor,NB-IoT,commercial,gsma-iot
+NO,Norway,Telia,NB-IoT,commercial,gsma-iot
+SE,Sweden,Tele2,LTE-M,commercial,gsma-iot
+SE,Sweden,Telenor,LTE-M,commercial,gsma-iot
+SE,Sweden,Telia,LTE-M,commercial,gsma-iot
+SE,Sweden,Telenor,NB-IoT,commercial,gsma-iot
+SE,Sweden,Telia,NB-IoT,commercial,gsma-iot
+FI,Finland,DNA,LTE-M,commercial,gsma-iot
+FI,Finland,Elisa,LTE-M,commercial,gsma-iot
+FI,Finland,Telia,LTE-M,commercial,gsma-iot
+FI,Finland,DNA,NB-IoT,commercial,gsma-iot
+FI,Finland,Elisa,NB-IoT,commercial,gsma-iot
+FI,Finland,Telia,NB-IoT,commercial,gsma-iot
+IS,Iceland,Vodafone,LTE-M,commercial,gsma-iot
+IS,Iceland,Vodafone,NB-IoT,commercial,gsma-iot
+EE,Estonia,Elisa,LTE-M,commercial,gsma-iot
+EE,Estonia,Telia,LTE-M,commercial,gsma-iot
+EE,Estonia,Elisa,NB-IoT,commercial,gsma-iot
+EE,Estonia,Telia,NB-IoT,commercial,gsma-iot
+LV,Latvia,LMT,LTE-M,commercial,gsma-iot
+LV,Latvia,LMT,NB-IoT,commercial,gsma-iot
+LT,Lithuania,Telia,LTE-M,commercial,gsma-iot
+LT,Lithuania,Telia,NB-IoT,commercial,gsma-iot
+PL,Poland,Deutsche Telekom,LTE-M,commercial,gsma-iot
+PL,Poland,Orange,LTE-M,commercial,gsma-iot
+PL,Poland,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+PL,Poland,Orange,NB-IoT,commercial,gsma-iot
+CZ,Czechia,Deutsche Telekom,LTE-M,commercial,gsma-iot
+CZ,Czechia,Vodafone,LTE-M,commercial,gsma-iot
+CZ,Czechia,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+CZ,Czechia,Vodafone,NB-IoT,commercial,gsma-iot
+SK,Slovakia,Deutsche Telekom,LTE-M,commercial,gsma-iot
+SK,Slovakia,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+HU,Hungary,Deutsche Telekom,LTE-M,commercial,gsma-iot
+HU,Hungary,Vodafone,LTE-M,commercial,gsma-iot
+HU,Hungary,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+HU,Hungary,Vodafone,NB-IoT,commercial,gsma-iot
+RO,Romania,Orange,LTE-M,commercial,gsma-iot
+RO,Romania,Vodafone,LTE-M,commercial,gsma-iot
+RO,Romania,Orange,NB-IoT,commercial,gsma-iot
+RO,Romania,Vodafone,NB-IoT,commercial,gsma-iot
+BG,Bulgaria,A1,LTE-M,commercial,gsma-iot
+BG,Bulgaria,A1,NB-IoT,commercial,gsma-iot
+GR,Greece,Deutsche Telekom,LTE-M,commercial,gsma-iot
+GR,Greece,Vodafone,LTE-M,commercial,gsma-iot
+GR,Greece,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+GR,Greece,Nova,NB-IoT,commercial,gsma-iot
+GR,Greece,Vodafone,NB-IoT,commercial,gsma-iot
+HR,Croatia,A1,LTE-M,commercial,gsma-iot
+HR,Croatia,Deutsche Telekom,LTE-M,commercial,gsma-iot
+HR,Croatia,A1,NB-IoT,commercial,gsma-iot
+HR,Croatia,Deutsche Telekom,NB-IoT,commercial,gsma-iot
+SI,Slovenia,A1,LTE-M,commercial,gsma-iot
+SI,Slovenia,A1,NB-IoT,commercial,gsma-iot
+RS,Serbia,A1,LTE-M,commercial,gsma-iot
+RS,Serbia,A1,NB-IoT,commercial,gsma-iot
+UA,Ukraine,Vodafone,LTE-M,commercial,gsma-iot
+UA,Ukraine,Kyivstar,NB-IoT,commercial,gsma-iot
+UA,Ukraine,Vodafone,NB-IoT,commercial,gsma-iot
+BY,Belarus,A1,LTE-M,commercial,gsma-iot
+BY,Belarus,A1,NB-IoT,commercial,gsma-iot
+RU,Russia,MegaFon,NB-IoT,commercial,gsma-iot
+RU,Russia,MTS,NB-IoT,commercial,gsma-iot
+TR,Türkiye,Turkcell,LTE-M,commercial,gsma-iot
+TR,Türkiye,Vodafone,LTE-M,commercial,gsma-iot
+TR,Türkiye,Turkcell,NB-IoT,commercial,gsma-iot
+TR,Türkiye,Vodafone,NB-IoT,commercial,gsma-iot
+JE,Jersey,JT,LTE-M,commercial,gsma-iot
+JE,Jersey,JT,NB-IoT,commercial,gsma-iot
+SA,Saudi Arabia,Mobily,LTE-M,commercial,gsma-iot
+SA,Saudi Arabia,stc,NB-IoT,commercial,gsma-iot
+AE,United Arab Emirates,Etisalat (e&),LTE-M,commercial,gsma-iot
+AE,United Arab Emirates,du,NB-IoT,commercial,gsma-iot
+AE,United Arab Emirates,Etisalat (e&),NB-IoT,commercial,gsma-iot
+QA,Qatar,Ooredoo,NB-IoT,commercial,gsma-iot
+IL,Israel,Pelephone,LTE-M,commercial,gsma-iot
+IL,Israel,Pelephone,NB-IoT,commercial,gsma-iot
+ZA,South Africa,Vodafone,LTE-M,commercial,gsma-iot
+ZA,South Africa,Vodafone,NB-IoT,commercial,gsma-iot
+CN,China,China Mobile,NB-IoT,commercial,gsma-iot
+CN,China,China Telecom,NB-IoT,commercial,gsma-iot
+CN,China,China Unicom,NB-IoT,commercial,gsma-iot
+HK,"Hong Kong, China",3,NB-IoT,commercial,gsma-iot
+HK,"Hong Kong, China",China Mobile,NB-IoT,commercial,gsma-iot
+HK,"Hong Kong, China",HKT,NB-IoT,commercial,gsma-iot
+HK,"Hong Kong, China",SmarTone,NB-IoT,commercial,gsma-iot
+TW,"Taiwan, China",APTG,LTE-M,commercial,gsma-iot
+TW,"Taiwan, China",Chunghwa Telecom,LTE-M,commercial,gsma-iot
+TW,"Taiwan, China",APTG,NB-IoT,commercial,gsma-iot
+TW,"Taiwan, China",Chunghwa Telecom,NB-IoT,commercial,gsma-iot
+TW,"Taiwan, China",FarEasTone,NB-IoT,commercial,gsma-iot
+TW,"Taiwan, China",Taiwan Mobile,NB-IoT,commercial,gsma-iot
+JP,Japan,KDDI,LTE-M,commercial,gsma-iot
+JP,Japan,NTT Docomo,LTE-M,commercial,gsma-iot
+JP,Japan,SoftBank,LTE-M,commercial,gsma-iot
+JP,Japan,SoftBank,NB-IoT,commercial,gsma-iot
+KR,South Korea,KT,LTE-M,commercial,gsma-iot
+KR,South Korea,KT,NB-IoT,commercial,gsma-iot
+KR,South Korea,LG U+,NB-IoT,commercial,gsma-iot
+SG,Singapore,SingTel,LTE-M,commercial,gsma-iot
+SG,Singapore,M1,NB-IoT,commercial,gsma-iot
+SG,Singapore,SingTel,NB-IoT,commercial,gsma-iot
+SG,Singapore,StarHub,NB-IoT,commercial,gsma-iot
+MY,Malaysia,Maxis,NB-IoT,some cities,gsma-iot
+TH,Thailand,AIS,LTE-M,commercial,gsma-iot
+TH,Thailand,AIS,NB-IoT,commercial,gsma-iot
+TH,Thailand,True,NB-IoT,commercial,gsma-iot
+VN,Vietnam,Viettel,NB-IoT,commercial,gsma-iot
+ID,Indonesia,Telkomsel,NB-IoT,commercial,gsma-iot
+ID,Indonesia,XL Axiata,NB-IoT,commercial,gsma-iot
+IN,India,Reliance Jio,NB-IoT,commercial,gsma-iot
+PK,Pakistan,Telenor,LTE-M,commercial,gsma-iot
+PK,Pakistan,Telenor,NB-IoT,commercial,gsma-iot
+BD,Bangladesh,Grameenphone,NB-IoT,commercial,gsma-iot
+LK,Sri Lanka,Dialog Axiata,LTE-M,commercial,gsma-iot
+LK,Sri Lanka,Dialog Axiata,NB-IoT,commercial,gsma-iot
+LK,Sri Lanka,Mobitel,NB-IoT,commercial,gsma-iot
+KZ,Kazakhstan,Kcell,NB-IoT,commercial,gsma-iot
+AU,Australia,Telstra,LTE-M,commercial,gsma-iot
+AU,Australia,Vodafone,LTE-M,commercial,gsma-iot
+AU,Australia,Optus,NB-IoT,commercial,gsma-iot
+AU,Australia,Telstra,NB-IoT,commercial,gsma-iot
+AU,Australia,Vodafone,NB-IoT,commercial,gsma-iot
+NZ,New Zealand,Spark,LTE-M,commercial,gsma-iot
+NZ,New Zealand,Vodafone,LTE-M,commercial,gsma-iot
+NZ,New Zealand,Vodafone,NB-IoT,commercial,gsma-iot

@@ -1,0 +1,78 @@
+﻿country,operator_id,network,date,status,source
+AU,vodafone-au,3G,2024-01,off,dcd-au-3g
+AU,telstra-au,3G,2024-10-28,off,bizgov-3g-au
+AU,optus-au,3G,2024-10-28,off,bizgov-3g-au
+NZ,2degrees-nz,3G,2026-02,off,dcd-spark-3g
+NZ,one-nz,3G,2026-03,off,dcd-spark-3g
+NZ,one-nz,2G,2026-03,off,nzb-2g
+NZ,spark-nz,3G,2026-03-31,off,dcd-spark-3g
+NL,vodafone-nl,3G,2020-01,off,bright-2g
+NL,kpn,3G,2022-03,off,totaltele-kpn
+NL,odido,2G,2023-06,off,acm-2g3g
+NL,odido,3G,2026-08,planned,emerce-odido
+NL,kpn,2G,2027-12-01,planned,bright-2g
+PL,tmobile-pl,3G,2023-04,off,telepolis-pl
+PL,orange-pl,3G,2025-12,planned,telepolis-pl
+PL,play-pl,3G,2026-12,planned,prepaid-pl
+BR,,2G/3G (expected nationwide),2028,planned,teletime-br
+IN,airtel,3G,2020-03,off,telenet-airtel
+SG,,2G (all networks),2017-04-01,off,ptw-sg-2g
+SG,m1,3G,2024-07-31,off,abi-3g-sg
+SG,singtel,3G,2024-11,off,abi-3g-sg
+SG,starhub,3G,2024-11,off,abi-3g-sg
+IT,vodafone-it,3G,2021-02,off,sostariffe-3g-it
+IT,tim-it,3G,2022-10-15,off,sostariffe-3g-it
+IT,windtre-it,3G,2025-12,planned,comparasemplice-3g
+ES,vodafone-es,3G,2024,off,xataka-3g-es
+ES,movistar-es,3G,2027,planned,xataka-3g-es
+ES,movistar-es,2G,2026,planned,bandaancha-mov
+ES,masorange-es,3G,2027-12-31,planned,roams-masorange
+ES,masorange-es,2G,2030-12-31,planned,roams-masorange
+CA,rogers-ca,3G,2025,off,ms-3g-ca
+CA,bell-ca,3G,2027-03-01,planned,ct-3g-ca
+CA,telus-ca,3G,2027-03-01,planned,telus-3g
+US,att,2G,2017,off,lr-tmo
+US,t-mobile,3G (Sprint CDMA),2022-03-31,off,lr-tmo
+US,t-mobile,4G (Sprint LTE),2022-06-30,off,lr-tmo
+US,t-mobile,3G (UMTS),2022-07-01,off,lr-tmo
+US,att,3G,2022,off,jiemian
+US,verizon,2G/3G (CDMA),2022-12-31,off,jiemian
+US,t-mobile,2G (GSM),2026-08-03,off,aa-tmo
+JP,kddi,3G (CDMA2000),2022-03-31,off,yokohama-3g
+JP,softbank,3G,2024-04-15,off,yokohama-3g
+JP,ntt-docomo,3G (FOMA),2026-03-31,off,yokohama-3g
+DE,telekom-de,3G,2021-06-30,off,techbook-3g
+DE,vodafone-de,3G,2021-06,off,mobiflip-o2-3g
+DE,o2-de,3G,2021-12-30,off,mobiflip-o2-3g
+DE,telekom-de,2G,2028-06-30,planned,teltarif-2g
+DE,vodafone-de,2G,2028-09,planned,pctipp-vf-2g
+DE,o2-de,2G,2028-H2,planned,teltarif-2g
+DE,vodafone-de,2G residual network for industrial IoT,2030-12,planned,pctipp-vf-2g
+FR,orange-fr,"2G (from 2026-03-31, region by region)",2026-12,planned,arcep-2g3g
+FR,sfr,2G,2026-12-15,planned,arcep-2g3g
+FR,bouygues,2G,2026-12-15,planned,arcep-2g3g
+FR,orange-fr,3G,2028,planned,arcep-2g3g
+FR,sfr,3G,2028-12,planned,arcep-2g3g
+FR,bouygues,3G,2029-12,planned,arcep-2g3g
+AE,etisalat,3G,2022-12,off,powertec-eand
+SA,stc-sa,3G,2022-Q4,off,stc-3g
+SA,zain-sa,3G,2024-01,off,powertec-zain
+SA,stc-sa,2G,2025-Q4,planned,stc-3g
+QA,,3G,2025-12-31,off,cra-3g
+IL,,2G,2025-12-31,off,partner-sunset
+IL,,3G,2025-12-31,off,partner-sunset
+GB,ee,3G,2024,off,csl-uk
+GB,vodafone,3G,2024,off,csl-uk
+GB,three,3G,2024,off,csl-uk
+GB,o2,3G,2026-03,off,csl-uk
+GB,,2G (all operators),2033,planned,csl-uk
+KR,kt,2G,2012,off,yonhap-2g
+KR,skt,2G,2020-07,off,tp-skt-2g
+KR,lg-uplus,2G,2021-06,off,yonhap-2g
+KR,,"3G WCDMA licences (KT, SKT)",2026-12-31,planned,itsb-3g
+KR,skt,3G,2027,planned,mt-3g
+CN,china-telecom,"3G (CDMA, Yunnan first)",2020-06,off,ithome-cu
+CN,china-mobile,2G (900/1800 MHz licence ends),2025-12-31,off,jiemian
+CN,china-unicom,3G (Zhejiang),2026-06-15,off,itsb-3g
+JP,NTT Docomo,NB-IoT,2020,off,eseye-nb
+US,AT&T,NB-IoT,2025-Q1,off,lr-att-nb;cp-att-nb

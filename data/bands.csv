@@ -1,0 +1,149 @@
+﻿tech,band,duplex,ul_low_mhz,ul_high_mhz,dl_low_mhz,dl_high_mhz,common_name,channel_bandwidths_mhz,note,sources,grade
+LTE,B1,FDD,1920,1980,2110,2170,2100 IMT,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B2,FDD,1850,1910,1930,1990,1900 PCS,"1.4,3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B3,FDD,1710,1785,1805,1880,1800 DCS,"1.4,3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B4,FDD,1710,1755,2110,2155,1700/2100 AWS-1,"1.4,3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B5,FDD,824,849,869,894,850 Cellular,"1.4,3,5,10",,3gpp-36101;wiki-lte,A
+LTE,B6,FDD,830,840,875,885,800 UMTS,"5,10",na,3gpp-36101;wiki-lte,A
+LTE,B7,FDD,2500,2570,2620,2690,2600 IMT-E,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B8,FDD,880,915,925,960,900 E-GSM,"1.4,3,5,10",,3gpp-36101;wiki-lte,A
+LTE,B9,FDD,1749.9,1784.9,1844.9,1879.9,1800 (Japan),"5,10",,3gpp-36101;wiki-lte,A
+LTE,B10,FDD,1710,1770,2110,2170,Extended AWS,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B11,FDD,1427.9,1447.9,1475.9,1495.9,1500 Lower PDC,"5,10",,3gpp-36101;wiki-lte,A
+LTE,B12,FDD,699,716,729,746,700 Lower SMH (a),"1.4,3,5,10",,3gpp-36101;wiki-lte,A
+LTE,B13,FDD,777,787,746,756,700 Upper SMH (c),"5,10",,3gpp-36101;wiki-lte,A
+LTE,B14,FDD,788,798,758,768,700 Upper SMH (FirstNet),"5,10",,3gpp-36101;wiki-lte,A
+LTE,B17,FDD,704,716,734,746,700 Lower SMH (b),"5,10",,3gpp-36101;wiki-lte,A
+LTE,B18,FDD,815,830,860,875,800 Lower (Japan),"5,10,15",,3gpp-36101;wiki-lte,A
+LTE,B19,FDD,830,845,875,890,800 Upper (Japan),"5,10,15",,3gpp-36101;wiki-lte,A
+LTE,B20,FDD,832,862,791,821,800 Digital Dividend,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B21,FDD,1447.9,1462.9,1495.9,1510.9,1500 Upper PDC,"5,10,15",,3gpp-36101;wiki-lte,A
+LTE,B22,FDD,3410,3490,3510,3590,3500 FDD,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B23,FDD,2000,2020,2180,2200,2000 AWS-4,"1.4,3,5,10,15,20",na,3gpp-36101;wiki-lte,A
+LTE,B24,FDD,1626.5,1660.5,1525,1559,1600 Upper L-Band,"5,10",n17,3gpp-36101;wiki-lte,A
+LTE,B25,FDD,1850,1915,1930,1995,1900 Extended PCS,"1.4,3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B26,FDD,814,849,859,894,850 Extended Cellular,"1.4,3,5,10,15",,3gpp-36101;wiki-lte,A
+LTE,B27,FDD,807,824,852,869,800 SMR,"1.4,3,5,10",,3gpp-36101;wiki-lte,A
+LTE,B28,FDD,703,748,758,803,700 APT,"3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B29,SDL,,,717,728,700 Lower SMH (d) SDL,"3,5,10",ca,3gpp-36101;wiki-lte,A
+LTE,B30,FDD,2305,2315,2350,2360,2300 WCS,"5,10",n15,3gpp-36101;wiki-lte,A
+LTE,B31,FDD,452.5,457.5,462.5,467.5,450 NMT,"1.4,3,5",,3gpp-36101;wiki-lte,A
+LTE,B32,SDL,,,1452,1496,1500 L-Band SDL,"5,10,15,20",ca,3gpp-36101;wiki-lte,A
+LTE,B33,TDD,1900,1920,1900,1920,1900 IMT TDD,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B34,TDD,2010,2025,2010,2025,2000 IMT TDD,"5,10,15",,3gpp-36101;wiki-lte,A
+LTE,B35,TDD,1850,1910,1850,1910,1900 PCS TDD (lower),"1.4,3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B36,TDD,1930,1990,1930,1990,1900 PCS TDD (upper),"1.4,3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B37,TDD,1910,1930,1910,1930,1900 PCS centre gap,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B38,TDD,2570,2620,2570,2620,2600 IMT-E TDD,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B39,TDD,1880,1920,1880,1920,1900 DCS–IMT gap (China),"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B40,TDD,2300,2400,2300,2400,2300 S-Band,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B41,TDD,2496,2690,2496,2690,2500 BRS,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B42,TDD,3400,3600,3400,3600,3500,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B43,TDD,3600,3800,3600,3800,3700,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B44,TDD,703,803,703,803,700 APT TDD,"3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B45,TDD,1447,1467,1447,1467,1500 L-Band TDD (China),"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B46,TDD,5150,5925,5150,5925,5 GHz unlicensed (LAA),"10,20",laa,3gpp-36101;wiki-lte,A
+LTE,B47,TDD,5855,5925,5855,5925,5.9 GHz V2X,"10,20",v2x,3gpp-36101;wiki-lte,A
+LTE,B48,TDD,3550,3700,3550,3700,3500 CBRS (US),"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B49,TDD,3550,3700,3550,3700,3500 CBRS LAA,"10,20",laa,3gpp-36101;wiki-lte,A
+LTE,B50,TDD,1432,1517,1432,1517,1500 L-Band,"3,5,10,15,20",n13,3gpp-36101;wiki-lte,A
+LTE,B51,TDD,1427,1432,1427,1432,1500 L-Band ext.,"3,5",n13,3gpp-36101;wiki-lte,A
+LTE,B52,TDD,3300,3400,3300,3400,3300,"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B53,TDD,2483.5,2495,2483.5,2495,2400 S-Band,"1.4,3,5,10",,3gpp-36101;wiki-lte,A
+LTE,B54,TDD,1670,1675,1670,1675,1600 L-Band,"1.4,3,5",,3gpp-36101;wiki-lte,A
+LTE,B65,FDD,1920,2010,2110,2200,Extended 2100 IMT,"1.4,3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B66,FDD,1710,1780,2110,2200,1700/2100 Extended AWS,"1.4,3,5,10,15,20",n4,3gpp-36101;wiki-lte,A
+LTE,B67,SDL,,,738,758,700 EU SDL,"5,10,15,20",ca,3gpp-36101;wiki-lte,A
+LTE,B68,FDD,698,728,753,783,700 ME,"5,10,15",,3gpp-36101;wiki-lte,A
+LTE,B69,SDL,,,2570,2620,2600 SDL,"5,10,15,20",ca,3gpp-36101;wiki-lte,A
+LTE,B70,FDD,1695,1710,1995,2020,Supplementary AWS,"5,10,15,20",n10,3gpp-36101;wiki-lte,A
+LTE,B71,FDD,663,698,617,652,600 (US),"5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B72,FDD,451,456,461,466,450 PMR (EU),"1.4,3,5",,3gpp-36101;wiki-lte,A
+LTE,B73,FDD,450,455,460,465,450 PMR (APT),"1.4,3,5",,3gpp-36101;wiki-lte,A
+LTE,B74,FDD,1427,1470,1475,1518,1500 Lower L-Band,"1.4,3,5,10,15,20",,3gpp-36101;wiki-lte,A
+LTE,B75,SDL,,,1432,1517,1500 L-Band SDL,"5,10,15,20",ca,3gpp-36101;wiki-lte,A
+LTE,B76,SDL,,,1427,1432,1500 L-Band ext. SDL,5,ca,3gpp-36101;wiki-lte,A
+LTE,B85,FDD,698,716,728,746,700 Extended Lower SMH,"5,10",,3gpp-36101;wiki-lte,A
+LTE,B87,FDD,410,415,420,425,410 PMR (APT),"1.4,3,5",,3gpp-36101;wiki-lte,A
+LTE,B88,FDD,412,417,422,427,410 PMR (EU),"1.4,3,5",,3gpp-36101;wiki-lte,A
+LTE,B103,FDD,787,788,757,758,700 Upper SMH (NB-IoT),,nbiot,3gpp-36101;wiki-lte,A
+LTE,B106,FDD,896,901,935,940,900 LMR (US),"1.4,3",,3gpp-36101;wiki-lte,A
+LTE,B111,FDD,1800,1810,1820,1830,1800 private LTE (Canada),"1.4,3,5,10",n19,3gpp-36101;wiki-lte,A
+NR,n1,FDD,1920,1980,2110,2170,2100 IMT,5–50,,wiki-nr;itec-bands,A
+NR,n2,FDD,1850,1910,1930,1990,1900 PCS,5–40,,wiki-nr;itec-bands,A
+NR,n3,FDD,1710,1785,1805,1880,1800 DCS,5–50,,wiki-nr;itec-bands,A
+NR,n5,FDD,824,849,869,894,850 Cellular,3–25,,wiki-nr;itec-bands,A
+NR,n7,FDD,2500,2570,2620,2690,2600 IMT-E,5–50,,wiki-nr;itec-bands,A
+NR,n8,FDD,880,915,925,960,900 E-GSM,5–35,,wiki-nr;itec-bands,A
+NR,n12,FDD,699,716,729,746,700 Lower SMH,3–15,,wiki-nr;itec-bands,A
+NR,n13,FDD,777,787,746,756,700 Upper SMH,"5,10",,wiki-nr;itec-bands,A
+NR,n14,FDD,788,798,758,768,700 Upper SMH,"5,10",,wiki-nr;itec-bands,A
+NR,n18,FDD,815,830,860,875,800 Lower (Japan),5–15,,wiki-nr;itec-bands,A
+NR,n20,FDD,832,862,791,821,800 Digital Dividend,5–20,,wiki-nr;itec-bands,A
+NR,n24,FDD,1626.5,1660.5,1525,1559,1600 Upper L-band,"5,10",,wiki-nr;itec-bands,A
+NR,n25,FDD,1850,1915,1930,1995,1900 Extended PCS,5–45,,wiki-nr;itec-bands,A
+NR,n26,FDD,814,849,859,894,850 Extended Cellular,3–30,,wiki-nr;itec-bands,A
+NR,n28,FDD,703,748,758,803,700 APT,3–30,,wiki-nr;itec-bands,A
+NR,n29,SDL,,,717,728,700 Lower SMH,"5,10",ca,wiki-nr;itec-bands,A
+NR,n30,FDD,2305,2315,2350,2360,2300 WCS,"5,10",,wiki-nr;itec-bands,A
+NR,n31,FDD,452.5,457.5,462.5,467.5,450 NMT,"3,5",,wiki-nr,C
+NR,n34,TDD,2010,2025,2010,2025,2100 IMT TDD,5–15,,wiki-nr;itec-bands,A
+NR,n38,TDD,2570,2620,2570,2620,2600 IMT-E TDD,5–40,,wiki-nr;itec-bands,A
+NR,n39,TDD,1880,1920,1880,1920,1900 DCS–IMT gap,5–40,,wiki-nr;itec-bands,A
+NR,n40,TDD,2300,2400,2300,2400,2300 S-Band,5–100,,wiki-nr;itec-bands,A
+NR,n41,TDD,2496,2690,2496,2690,2500 BRS,5–100,,wiki-nr;itec-bands,A
+NR,n46,TDD,5150,5925,5150,5925,5 GHz unlicensed (NR-U),10–100,nru,wiki-nr;itec-bands,A
+NR,n47,TDD,5855,5925,5855,5925,5.9 GHz V2X,10–40,v2x,wiki-nr;itec-bands,A
+NR,n48,TDD,3550,3700,3550,3700,3500 CBRS (US),5–100,,wiki-nr;itec-bands,A
+NR,n50,TDD,1432,1517,1432,1517,1500 L-Band,5–80,,wiki-nr;itec-bands,A
+NR,n51,TDD,1427,1432,1427,1432,1500 L-Band ext.,5,,wiki-nr;itec-bands,A
+NR,n53,TDD,2483.5,2495,2483.5,2495,2400 S-band,"5,10",,wiki-nr;itec-bands,A
+NR,n54,TDD,1670,1675,1670,1675,1600 L-band,5,,wiki-nr,C
+NR,n65,FDD,1920,2010,2110,2200,Extended 2100 IMT,5–50,,wiki-nr;itec-bands,A
+NR,n66,FDD,1710,1780,2110,2200,1700/2100 Extended AWS,5–45,,wiki-nr;itec-bands,A
+NR,n67,SDL,,,738,758,700 EU SDL,5–20,ca,wiki-nr,C
+NR,n68,FDD,698,728,753,783,700 ME,5–15,,wiki-nr,C
+NR,n70,FDD,1695,1710,1995,2020,Supplementary AWS,5–25,,wiki-nr;itec-bands,A
+NR,n71,FDD,663,698,617,652,600 (US),5–35,,wiki-nr;itec-bands,A
+NR,n72,FDD,451,456,461,466,450 PMR,"3,5",,wiki-nr,C
+NR,n74,FDD,1427,1470,1475,1518,1500 Lower L-Band,5–20,,wiki-nr;itec-bands,A
+NR,n75,SDL,,,1432,1517,1500 L-Band SDL,5–50,ca,wiki-nr;itec-bands,A
+NR,n76,SDL,,,1427,1432,1500 L-Band ext. SDL,5,ca,wiki-nr;itec-bands,A
+NR,n77,TDD,3300,4200,3300,4200,3700 C-Band,10–100,,wiki-nr;itec-bands,A
+NR,n78,TDD,3300,3800,3300,3800,3500 C-Band,10–100,,wiki-nr;itec-bands,A
+NR,n79,TDD,4400,5000,4400,5000,4700 C-Band,10–100,,wiki-nr;itec-bands,A
+NR,n80,SUL,1710,1785,,,1800 SUL,,sul,wiki-nr;itec-bands,A
+NR,n81,SUL,880,915,,,900 SUL,,sul,wiki-nr;itec-bands,A
+NR,n82,SUL,832,862,,,800 SUL,,sul,wiki-nr;itec-bands,A
+NR,n83,SUL,703,748,,,700 SUL,,sul,wiki-nr;itec-bands,A
+NR,n84,SUL,1920,1980,,,2100 SUL,,sul,wiki-nr;itec-bands,A
+NR,n85,FDD,698,716,728,746,700 Extended Lower SMH,3–15,,wiki-nr,C
+NR,n86,SUL,1710,1780,,,1700 SUL,,sul,wiki-nr;itec-bands,A
+NR,n87,FDD,410,415,420,425,410 PMR,"3,5",,wiki-nr,C
+NR,n88,FDD,412,417,422,427,410 PMR,"3,5",,wiki-nr,C
+NR,n89,SUL,824,849,,,850 SUL,,sul,wiki-nr;itec-bands,A
+NR,n90,TDD,2496,2690,2496,2690,2500 BRS (DSS raster),5–100,dss,wiki-nr;itec-bands,A
+NR,n91,FDD,832,862,1427,1432,800 UL / 1500 DL,"5,10",,wiki-nr;itec-bands,A
+NR,n92,FDD,832,862,1432,1517,800 UL / 1500 DL,5–20,,wiki-nr;itec-bands,A
+NR,n93,FDD,880,915,1427,1432,900 UL / 1500 DL,"5,10",,wiki-nr;itec-bands,A
+NR,n94,FDD,880,915,1432,1517,900 UL / 1500 DL,5–20,,wiki-nr;itec-bands,A
+NR,n95,SUL,2010,2025,,,2100 SUL (China),,sul,wiki-nr;itec-bands,A
+NR,n96,TDD,5925,7125,5925,7125,6 GHz unlicensed,20–100,nru,wiki-nr;itec-bands,A
+NR,n97,SUL,2300,2400,,,2300 SUL,,sul,wiki-nr;itec-bands,A
+NR,n98,SUL,1880,1920,,,1900 SUL,,sul,wiki-nr;itec-bands,A
+NR,n99,SUL,1626.5,1660.5,,,1600 SUL,,sul,wiki-nr;itec-bands,A
+NR,n100,FDD,874.4,880,919.4,925,900 railway (FRMCS),"3,5",,wiki-nr;itec-bands,A
+NR,n101,TDD,1900,1910,1900,1910,1900 railway (FRMCS),"5,10",,wiki-nr;itec-bands,A
+NR,n102,TDD,5925,6425,5925,6425,6 GHz lower unlicensed,20–100,nru,wiki-nr;itec-bands,A
+NR,n104,TDD,6425,7125,6425,7125,6.7 GHz,20–100,,wiki-nr;itec-bands,A
+NR,n105,FDD,663,703,612,652,600 APT,5–35,,wiki-nr,C
+NR,n106,FDD,896,901,935,940,900 LMR (US),3,,wiki-nr,C
+NR,n109,FDD,703,733,1432,1517,700 UL / 1500 DL,5–50,,wiki-nr,C
+NR,n110,FDD,1390,1395,1432,1435,1400 L-Band,3,,wiki-nr,C
+NR,n257,TDD,26500,29500,26500,29500,28 GHz mmWave,50–400,,wiki-nr;itec-bands,A
+NR,n258,TDD,24250,27500,24250,27500,26 GHz mmWave,50–400,,wiki-nr;itec-bands,A
+NR,n259,TDD,39500,43500,39500,43500,41 GHz mmWave,50–400,,wiki-nr,C
+NR,n260,TDD,37000,40000,37000,40000,39 GHz mmWave,50–400,,wiki-nr;itec-bands,A
+NR,n261,TDD,27500,28350,27500,28350,28 GHz mmWave,50–400,,wiki-nr;itec-bands,A
+NR,n262,TDD,47200,48200,47200,48200,47 GHz mmWave,50–400,,wiki-nr;itec-bands,A
+NR,n263,TDD,57000,71000,57000,71000,60 GHz mmWave,100–2000,,wiki-nr,C

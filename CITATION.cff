@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Band Atlas: cellular IoT bands, network switch-offs and device compatibility by country"
+type: dataset
+authors:
+  - name: "Hyper Nexus (Beijing Hyper Nexus Technology Co., Ltd.)"
+    website: "https://www.aiotrf.com/en/"
+license: CC-BY-4.0
+url: "https://www.aiotrf.com/en/ai/band-atlas/"
+date-released: "2026-10-03"
+keywords: [LTE bands, 5G bands, IoT, cellular modules, 2G sunset, 3G sunset, LTE-M, NB-IoT, RedCap]
