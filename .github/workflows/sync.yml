@@ -1,0 +1,57 @@
+name: Sync data from Band Atlas
+
+on:
+  schedule:
+    - cron: '30 1 * * *'        # every day at 09:30 Beijing time
+  workflow_dispatch:            # and whenever you press "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the latest data from www.aiotrf.com
+        run: |
+          mkdir -p data
+          for f in atlas.json bands.csv iot_networks.csv model_verdicts.csv models.csv network_bands.csv networks.csv pulse.csv redcap_networks.csv sources.csv sunset.csv; do
+            if curl -fsSL --retry 3 --max-time 90 -A "band-atlas-sync (github.com/365724-ctrl/band-atlas-data)" "https://www.aiotrf.com/ai/band-atlas/data/$f" -o "data/$f.new" && [ -s "data/$f.new" ]; then
+              mv "data/$f.new" "data/$f"
+            else
+              echo "::warning::could not download $f, keeping the previous copy"; rm -f "data/$f.new"
+            fi
+          done
+
+      - name: Refresh the counts in the README
+        run: |
+          python3 - <<'PY'
+          import csv, os, re
+          s = open('README.md', encoding='utf-8').read()
+          rows = lambda f: sum(1 for _ in csv.reader(open(os.path.join('data', f), encoding='utf-8-sig'))) - 1
+          for f in sorted(os.listdir('data')):
+              if f.endswith('.csv'):
+                  s = re.sub(r'(\| `%s` \|[^|\n]+\| )\d+( \|)' % re.escape(f), r'\g<1>%d\2' % rows(f), s)
+          nets = list(csv.DictReader(open('data/networks.csv', encoding='utf-8-sig')))
+          nn, nc, nm = len(nets), len({r['country'] for r in nets}), rows('models.csv')
+          s = re.sub(r'\d+ networks in \d+ countries', '%d networks in %d countries' % (nn, nc), s)
+          s = re.sub(r'\d+ 个国家 \d+ 张网络', '%d 个国家 %d 张网络' % (nc, nn), s)
+          s = re.sub(r'verdicts for \d+ modules', 'verdicts for %d modules' % nm, s)
+          s = re.sub(r'以及 \d+ 款模组', '以及 %d 款模组' % nm, s)
+          open('README.md', 'w', encoding='utf-8').write(s)
+          print('countries %d · networks %d · devices %d' % (nc, nn, nm))
+          PY
+
+      - name: Commit if anything changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "band-atlas-sync"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Sync data from www.aiotrf.com ($(date -u +%F))"
+            git push
+          else
+            echo "No changes today"
+          fi
