@@ -19,7 +19,7 @@
 | `networks.csv` | Networks: market, operator, technologies and switch-off status | 155 |
 | `pulse.csv` | Network pulse: industry indicators over time, with sources | 48 |
 | `redcap_networks.csv` | 5G RedCap launches, deployments and trials | 27 |
-| `sources.csv` | Sources and evidence grades (A official / B industry / C distributors and media) | 387 |
+| `sources.csv` | Sources and evidence grades (A official / B industry / C distributors and media) | 392 |
 | `sunset.csv` | 2G, 3G and NB-IoT switch-off events | 77 |
 
 ## How verdicts work
@@ -53,7 +53,7 @@ Found something out of date? Open an issue with a link to the operator's or make
 | `networks.csv` | 网络清单（国家、运营商、技术与退网状态） | 155 |
 | `pulse.csv` | 网络脉搏：行业指标的历史数据与来源 | 48 |
 | `redcap_networks.csv` | 5G RedCap 商用、部署与试验 | 27 |
-| `sources.csv` | 来源清单与证据等级（A 官方 / B 行业 / C 经销商与媒体） | 387 |
+| `sources.csv` | 来源清单与证据等级（A 官方 / B 行业 / C 经销商与媒体） | 392 |
 | `sunset.csv` | 2G、3G 与 NB-IoT 退网事件 | 77 |
 
 **授权**：CC BY 4.0，可自由使用、分享和修改（包括商业用途），注明出处即可：
