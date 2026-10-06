@@ -1,4 +1,12 @@
 ﻿id,name,vendor,kind,category,region,lte_bands,nr_bands,umts_bands,gsm_mhz,sources
+e5576-320,Huawei E5576-320,Huawei,module,MiFi · Cat 4,"Pocket Wi-Fi · Europe, Asia and Africa version",B1 B3 B7 B8 B20 B28 B38,,B1/B8,,lteanb-e5576 mall-e5576
+e5577-320,Huawei E5577-320,Huawei,module,MiFi · Cat 4,"Pocket Wi-Fi with display · Europe, Asia and Middle East version",B1 B3 B7 B8 B20 B28 B38 B40 B41,,B1/B8,,vms-e5577 ubb-e5577
+m7350,TP-Link M7350,TP-Link,module,MiFi · Cat 4,Pocket Wi-Fi · Europe and Asia-Pacific version,B1 B3 B7 B8 B20,,B1/B8,850/900/1800/1900,eds-m7350 tfg-m7350
+m7450,TP-Link M7450,TP-Link,module,MiFi · Cat 6,Pocket Wi-Fi · European version,B1 B3 B7 B8 B20 B38 B40 B41,,B1/B8,,ocuk-m7450 eds-m7350
+rm520n-gl,Quectel RM520N-GL,Quectel,module,5G Sub-6,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B14 B17 B18 B19 B20 B25 B26 B28 B29 B30 B32 B66 B71 B34 B38 B39 B40 B41 B42 B43 B48,n1 n2 n3 n5 n7 n8 n12 n13 n14 n18 n20 n25 n26 n28 n29 n30 n38 n40 n41 n48 n66 n70 n71 n75 n76 n77 n78 n79,B1/B2/B4/B5/B8/B19,,q-rm520n sixfab-rm520n
+eg912u-gl,Quectel EG912U-GL,Quectel,module,Cat 1 bis,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B17 B18 B19 B20 B25 B26 B28 B66 B34 B38 B39 B40 B41,,,850/900/1800/1900,q-eg912u qpy-eg912u
+bg77,Quectel BG77,Quectel,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B14 B18 B19 B20 B25 B26 B27 B28 B66 B71 B85,,,,q-bg-intro erf-bg77
+bg770a-gl,Quectel BG770A-GL,Quectel,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B17 B18 B19 B20 B25 B26 B27 B28 B66,,,,q-bg770a erf-bg77xa
 eg25-g,Quectel EG25-G,Quectel,module,Cat 4,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B18 B19 B20 B25 B26 B28 B38 B39 B40 B41,,B1/B2/B4/B5/B6/B8/B19,850/900/1800/1900,q-eg25g erf-eg25g
 sim7600g-h,SIMCom SIM7600G-H,SIMCom,module,Cat 4,global,B1 B2 B3 B4 B5 B7 B8 B12 B13 B18 B19 B20 B25 B26 B28 B66 B34 B38 B39 B40 B41,,B1/B2/B4/B5/B6/B8/B19,850/900/1800/1900,sc-7600gh avnet-7600gh
 bg95-m3,Quectel BG95-M3,Quectel,module,LTE-M / NB-IoT,global,B1 B2 B3 B4 B5 B8 B12 B13 B18 B19 B20 B25 B26 B27 B28 B66 B71 B85,,,850/900/1800/1900,q-bg95 cnx-bg95
