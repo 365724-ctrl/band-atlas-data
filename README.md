@@ -15,11 +15,11 @@
 | `iot_networks.csv` | LTE-M and NB-IoT networks | 208 |
 | `model_verdicts.csv` | Every module and device rated on every network, with the bands it lacks | 18135 |
 | `models.csv` | Modules and IoT devices (DTUs, routers, trackers): bands and sources | 39 |
-| `network_bands.csv` | The 4G/5G bands each network uses | 1728 |
+| `network_bands.csv` | The 4G/5G bands each network uses | 1732 |
 | `networks.csv` | Networks: market, operator, technologies and switch-off status | 465 |
 | `pulse.csv` | Network pulse: industry indicators over time, with sources | 48 |
 | `redcap_networks.csv` | 5G RedCap launches, deployments and trials | 27 |
-| `sources.csv` | Sources and evidence grades (A official / B industry / C distributors and media) | 421 |
+| `sources.csv` | Sources and evidence grades (A official / B industry / C distributors and media) | 470 |
 | `sunset.csv` | 2G, 3G and NB-IoT switch-off events | 77 |
 
 ## How verdicts work
@@ -49,11 +49,11 @@ Found something out of date? Open an issue with a link to the operator's or make
 | `iot_networks.csv` | LTE-M 与 NB-IoT 网络 | 208 |
 | `model_verdicts.csv` | 每款模组与设备在每张网络上的评级与缺少的频段 | 18135 |
 | `models.csv` | 模组与物联网设备（DTU、路由器、定位器）：频段与来源 | 39 |
-| `network_bands.csv` | 每张网络在用的 4G/5G 频段 | 1728 |
+| `network_bands.csv` | 每张网络在用的 4G/5G 频段 | 1732 |
 | `networks.csv` | 网络清单（国家、运营商、技术与退网状态） | 465 |
 | `pulse.csv` | 网络脉搏：行业指标的历史数据与来源 | 48 |
 | `redcap_networks.csv` | 5G RedCap 商用、部署与试验 | 27 |
-| `sources.csv` | 来源清单与证据等级（A 官方 / B 行业 / C 经销商与媒体） | 421 |
+| `sources.csv` | 来源清单与证据等级（A 官方 / B 行业 / C 经销商与媒体） | 470 |
 | `sunset.csv` | 2G、3G 与 NB-IoT 退网事件 | 77 |
 
 **授权**：CC BY 4.0，可自由使用、分享和修改（包括商业用途），注明出处即可：

@@ -1,129 +1,129 @@
 ﻿country,operator_id,operator,group,sa,sa_date,sa_source,redcap,redcap_date,redcap_source,lte_m,lte_m_source,nb_iot,nb_iot_source,2g,2g_date,2g_source,3g,3g_date,3g_source
-GB,ee,EE,BT Group,yes,2024,rcr-ee-sa,trial,,fierce-bt,unlisted,gsma-iot,unlisted,gsma-iot,planned,2033,csl-uk,off,2024,csl-uk
-GB,o2,O2,Virgin Media O2,yes,2024-02,vmo2-sa,none,,gsa-redcap,unlisted,gsma-iot,unlisted,gsma-iot,planned,2033,csl-uk,off,2026-03,csl-uk
-GB,vodafone,Vodafone,VodafoneThree,yes,2023-06,rcr-vf-sa,none,,gsa-redcap,yes,gsma-iot,yes,gsma-iot,planned,2033,csl-uk,off,2024,csl-uk
+GB,ee,EE,BT Group,yes,2024,rcr-ee-sa,trial,,fierce-bt,unlisted,gsma-iot,yes,monogoto-lpwa,planned,2033,csl-uk,off,2024,csl-uk
+GB,o2,O2,Virgin Media O2,yes,2024-02,vmo2-sa,none,,gsa-redcap,yes,"monogoto-lpwa,lansitec-lpwa",unlisted,gsma-iot,planned,2033,csl-uk,off,2026-03,csl-uk
+GB,vodafone,Vodafone,VodafoneThree,yes,2023-06,rcr-vf-sa,none,,gsa-redcap,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2033,csl-uk,off,2024,csl-uk
 GB,three,Three,VodafoneThree,integrating,,vf-merger,none,,gsa-redcap,unlisted,gsma-iot,unlisted,gsma-iot,never,,,off,2025-11-27,wl-sunset
-US,att,AT&T,AT&T,yes,2025-10,att-sa,yes,2025-07,att-sa,yes,gsma-iot,off,lr-att-nb,off,2017,lr-tmo,off,2022,jiemian
-US,verizon,Verizon,Verizon,rolling,,urgent-us,unclear,,phonescoop,yes,gsma-iot,yes,gsma-iot,off,2022-12-31,jiemian,off,2022-12-31,jiemian
-US,t-mobile,T-Mobile,T-Mobile US,yes,2020,phonescoop,yes,,gsa-redcap-vp,yes,gsma-iot,yes,gsma-iot,off,2026-08-03,aa-tmo,off,2022-07-01,lr-tmo
-KR,skt,SK Telecom,SK Group,b2b,,cms-kr,none,,,unlisted,gsma-iot,unlisted,gsma-iot,off,2020-07,tp-skt-2g,ending,2027,mt-3g
-KR,kt,KT,KT Corporation,yes,2021,cms-kr,none,,,yes,gsma-iot,yes,gsma-iot,off,2012,yonhap-2g,ending,,mt-3g
-KR,lg-uplus,LG U+,LG Uplus,nsa,,cms-kr,none,,,unlisted,gsma-iot,yes,gsma-iot,off,2021-06,yonhap-2g,never,,mt-3g
-CN,china-mobile,China Mobile,中国移动,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,unlisted,gsma-iot,yes,gsma-iot,off,2025-12-31,jiemian,off,,hn-cn
-CN,china-telecom,China Telecom,中国电信,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,unlisted,gsma-iot,yes,gsma-iot,ending,,ithome-cu,ending,2020-06,ithome-cu
-CN,china-unicom,China Unicom,中国联通,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,unlisted,gsma-iot,yes,gsma-iot,ending,,ithome-cu,ending,2026-06-15,itsb-3g
+US,att,AT&T,AT&T,yes,2025-10,att-sa,yes,2025-07,att-sa,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",off,lr-att-nb,off,2017,lr-tmo,off,2022,jiemian
+US,verizon,Verizon,Verizon,rolling,,urgent-us,unclear,,phonescoop,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",off,2022-12-31,jiemian,off,2022-12-31,jiemian
+US,t-mobile,T-Mobile,T-Mobile US,yes,2020,phonescoop,yes,,gsa-redcap-vp,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2026-08-03,aa-tmo,off,2022-07-01,lr-tmo
+KR,skt,SK Telecom,SK Group,b2b,,cms-kr,none,,,yes,"monogoto-lpwa,thingsmobile-ltem",unlisted,gsma-iot,off,2020-07,tp-skt-2g,ending,2027,mt-3g
+KR,kt,KT,KT Corporation,yes,2021,cms-kr,none,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",off,2012,yonhap-2g,ending,,mt-3g
+KR,lg-uplus,LG U+,LG Uplus,nsa,,cms-kr,none,,,yes,"thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",off,2021-06,yonhap-2g,never,,mt-3g
+CN,china-mobile,China Mobile,中国移动,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,yes,monogoto-lpwa,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2025-12-31,jiemian,off,,hn-cn
+CN,china-telecom,China Telecom,中国电信,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,unlisted,gsma-iot,yes,"gsma-iot,lansitec-lpwa",ending,,ithome-cu,ending,2020-06,ithome-cu
+CN,china-unicom,China Unicom,中国联通,yes,,gsa-redcap-vp,yes,,gsa-redcap-vp,unlisted,gsma-iot,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",ending,,ithome-cu,ending,2026-06-15,itsb-3g
 CN,china-broadnet,China Broadnet,中国广电,unknown,,,unknown,,,unlisted,gsma-iot,unlisted,gsma-iot,never,,,never,,
-JP,ntt-docomo,NTT docomo,NTT,yes,2021-12,docomo-sa,none,,,yes,gsma-iot,off,eseye-nb,off,2012,itsb-3g,off,2026-03-31,yokohama-3g
-JP,kddi,KDDI (au),KDDI,yes,2022,comsoc-kddi-sa,none,,,yes,gsma-iot,unlisted,gsma-iot,off,2012,itsb-3g,off,2022-03-31,yokohama-3g
-JP,softbank,SoftBank,SoftBank Corp.,yes,2021,rcr-sb-sa,yes,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,off,2012,itsb-3g,off,2024-04-15,yokohama-3g
+JP,ntt-docomo,NTT docomo,NTT,yes,2021-12,docomo-sa,none,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",off,eseye-nb,off,2012,itsb-3g,off,2026-03-31,yokohama-3g
+JP,kddi,KDDI (au),KDDI,yes,2022,comsoc-kddi-sa,none,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,monogoto-lpwa,off,2012,itsb-3g,off,2022-03-31,yokohama-3g
+JP,softbank,SoftBank,SoftBank Corp.,yes,2021,rcr-sb-sa,yes,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",off,2012,itsb-3g,off,2024-04-15,yokohama-3g
 JP,rakuten,Rakuten Mobile,Rakuten Group,nsa,,obs-rakuten,none,,,unlisted,gsma-iot,unlisted,gsma-iot,never,,rcr-jp-5g,never,,rcr-jp-5g
-DE,telekom-de,Deutsche Telekom,Deutsche Telekom,yes,2024-10-16,dpa-telekom-sa,yes,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,planned,2028-06-30,teltarif-2g,off,2021-06-30,techbook-3g
-DE,vodafone-de,Vodafone,Vodafone Group,yes,2021-04,fierce-o2-sa,none,,,yes,gsma-iot,yes,gsma-iot,planned,2028-09,pctipp-vf-2g,off,2021-06,mobiflip-o2-3g
-DE,o2-de,O2 Telefónica,Telefónica,yes,2023-10-10,fierce-o2-sa,yes,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,planned,2028-H2,teltarif-2g,off,2021-12-30,mobiflip-o2-3g
-FR,orange-fr,Orange,Orange,yes,2025-03,degroup-sa,none,,,yes,gsma-iot,yes,gsma-iot,ending,2026-12,arcep-2g3g,planned,2028,arcep-2g3g
-FR,sfr,SFR,Altice France,yes,2025-10,degroup-sa,none,,,yes,gsma-iot,yes,gsma-iot,planned,2026-12-15,arcep-2g3g,planned,2028-12,arcep-2g3g
-FR,bouygues,Bouygues Telecom,Bouygues,yes,2025-06,degroup-sa,none,,,yes,gsma-iot,yes,gsma-iot,planned,2026-12-15,arcep-2g3g,planned,2029-12,arcep-2g3g
-FR,free-fr,Free Mobile,Iliad,yes,2024-09,fierce-free-sa,none,,,unlisted,gsma-iot,unlisted,gsma-iot,never,,arcep-2g3g,none,,arcep-2g3g
-AE,etisalat,e& (Etisalat),Etisalat,yes,2023-10,cms-ae,yes,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,kimovil-ae,off,2022-12,powertec-eand
-AE,du,du,EITC,yes,2023,cms-ae,none,,,unlisted,gsma-iot,yes,gsma-iot,none,,wiki-du,none,,powertec-du
-SA,stc-sa,stc,stc Group,yes,2020-09,icio-stc,trial,,gsa-redcap-2604,unlisted,gsma-iot,yes,gsma-iot,planned,2025-Q4,stc-3g,off,2022-Q4,stc-3g
-SA,mobily,Mobily,Etihad Etisalat,unknown,,,trial,,gsa-redcap-2604,yes,gsma-iot,unlisted,gsma-iot,none,,kimovil-sa,none,,powertec-mobily
-SA,zain-sa,Zain KSA,Zain Group,unknown,,,trial,,gsa-redcap-2604,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-sa,off,2024-01,powertec-zain
-QA,ooredoo-qa,Ooredoo Qatar,Ooredoo Group,unknown,,,none,,,unlisted,gsma-iot,yes,gsma-iot,none,,kimovil-qa,off,2025-12-31,cra-3g
-QA,vodafone-qa,Vodafone Qatar,Vodafone Qatar,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-qa,off,2025-12-31,cra-3g
+DE,telekom-de,Deutsche Telekom,Deutsche Telekom,yes,2024-10-16,dpa-telekom-sa,yes,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2028-06-30,teltarif-2g,off,2021-06-30,techbook-3g
+DE,vodafone-de,Vodafone,Vodafone Group,yes,2021-04,fierce-o2-sa,none,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2028-09,pctipp-vf-2g,off,2021-06,mobiflip-o2-3g
+DE,o2-de,O2 Telefónica,Telefónica,yes,2023-10-10,fierce-o2-sa,yes,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2028-H2,teltarif-2g,off,2021-12-30,mobiflip-o2-3g
+FR,orange-fr,Orange,Orange,yes,2025-03,degroup-sa,none,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,gsma-iot,ending,2026-12,arcep-2g3g,planned,2028,arcep-2g3g
+FR,sfr,SFR,Altice France,yes,2025-10,degroup-sa,none,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2026-12-15,arcep-2g3g,planned,2028-12,arcep-2g3g
+FR,bouygues,Bouygues Telecom,Bouygues,yes,2025-06,degroup-sa,none,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa",planned,2026-12-15,arcep-2g3g,planned,2029-12,arcep-2g3g
+FR,free-fr,Free Mobile,Iliad,yes,2024-09,fierce-free-sa,none,,,yes,monogoto-lpwa,unlisted,gsma-iot,never,,arcep-2g3g,none,,arcep-2g3g
+AE,etisalat,e& (Etisalat),Etisalat,yes,2023-10,cms-ae,yes,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",none,,kimovil-ae,off,2022-12,powertec-eand
+AE,du,du,EITC,yes,2023,cms-ae,none,,,unlisted,gsma-iot,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,wiki-du,none,,powertec-du
+SA,stc-sa,stc,stc Group,yes,2020-09,icio-stc,trial,,gsa-redcap-2604,unlisted,gsma-iot,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2025-Q4,stc-3g,off,2022-Q4,stc-3g
+SA,mobily,Mobily,Etihad Etisalat,unknown,,,trial,,gsa-redcap-2604,yes,gsma-iot,yes,"monogoto-lpwa,lansitec-lpwa",none,,kimovil-sa,none,,powertec-mobily
+SA,zain-sa,Zain KSA,Zain Group,unknown,,,trial,,gsa-redcap-2604,unlisted,gsma-iot,yes,lansitec-lpwa,none,,kimovil-sa,off,2024-01,powertec-zain
+QA,ooredoo-qa,Ooredoo Qatar,Ooredoo Group,unknown,,,none,,,unlisted,gsma-iot,yes,"gsma-iot,monogoto-lpwa",none,,kimovil-qa,off,2025-12-31,cra-3g
+QA,vodafone-qa,Vodafone Qatar,Vodafone Qatar,unknown,,,none,,,unlisted,gsma-iot,yes,monogoto-lpwa,none,,kimovil-qa,off,2025-12-31,cra-3g
 KW,ooredoo-kw,Ooredoo Kuwait,Ooredoo Group,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-kw,none,,powertec-ooredoo-kw
 KW,zain-kw,Zain Kuwait,Zain Group,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-kw,none,,kimovil-kw
 KW,stc-kw,stc Kuwait,stc Group,yes,,gsa-redcap-2604,yes,,gsa-redcap-2604,unlisted,gsma-iot,unlisted,gsma-iot,none,,kimovil-kw,none,,kimovil-kw
-IL,partner-il,Partner,Partner Communications,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
-IL,hot-il,HOT Mobile,HOT,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
-IL,cellcom-il,Cellcom,Cellcom Israel,unknown,,,none,,,unlisted,gsma-iot,unlisted,gsma-iot,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
-IL,pelephone-il,Pelephone,Bezeq,unknown,,,none,,,yes,gsma-iot,yes,gsma-iot,never,,kimovil-il,off,2025-12-31,partner-sunset
-CA,rogers-ca,Rogers,Rogers Communications,unknown,,,unclear,,gsa-redcap,yes,gsma-iot,yes,gsma-iot,none,,,off,2025,ms-3g-ca
-CA,bell-ca,Bell,BCE,unknown,,,unknown,,,yes,gsma-iot,unlisted,gsma-iot,none,,,planned,2027-03-01,ct-3g-ca
-CA,telus-ca,TELUS,TELUS,unknown,,,unknown,,,yes,gsma-iot,unlisted,gsma-iot,none,,,planned,2027-03-01,telus-3g
-IT,tim-it,TIM,Telecom Italia,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,planned,2028-09,wl-sunset,off,2022,sostariffe-3g-it
-IT,vodafone-it,Vodafone,Fastweb + Vodafone (Swisscom),unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,planned,2030-12,wl-sunset,off,2021,sostariffe-3g-it
+IL,partner-il,Partner,Partner Communications,unknown,,,none,,,yes,monogoto-lpwa,yes,monogoto-lpwa,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
+IL,hot-il,HOT Mobile,HOT,unknown,,,none,,,yes,"monogoto-lpwa,thingsmobile-ltem",unlisted,gsma-iot,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
+IL,cellcom-il,Cellcom,Cellcom Israel,unknown,,,none,,,yes,monogoto-lpwa,unlisted,gsma-iot,off,2025-12-31,partner-sunset,off,2025-12-31,partner-sunset
+IL,pelephone-il,Pelephone,Bezeq,unknown,,,none,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,monogoto-lpwa",never,,kimovil-il,off,2025-12-31,partner-sunset
+CA,rogers-ca,Rogers,Rogers Communications,unknown,,,unclear,,gsa-redcap,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,off,2025,ms-3g-ca
+CA,bell-ca,Bell,BCE,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unlisted,gsma-iot,none,,,planned,2027-03-01,ct-3g-ca
+CA,telus-ca,TELUS,TELUS,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unlisted,gsma-iot,none,,,planned,2027-03-01,telus-3g
+IT,tim-it,TIM,Telecom Italia,unknown,,,none,,gsa-redcap-2604,yes,monogoto-lpwa,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2028-09,wl-sunset,off,2022,sostariffe-3g-it
+IT,vodafone-it,Vodafone,Fastweb + Vodafone (Swisscom),unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2030-12,wl-sunset,off,2021,sostariffe-3g-it
 IT,windtre-it,WindTre,CK Hutchison,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,ending,2025,comparasemplice-3g
 IT,iliad-it,Iliad,Iliad,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,never,,kimovil-it,none,,tecnoandroid-iliad
-NL,kpn,KPN,KPN,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,unlisted,,planned,2027-12-01,wl-sunset,off,2022,totaltele-kpn
-NL,vodafone-nl,Vodafone,VodafoneZiggo,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,planned,2028,wl-sunset,off,2020,bright-2g
-NL,odido,Odido,Odido (formerly T-Mobile Netherlands),unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,off,2023,acm-2g3g,ending,2026,emerce-odido
-PL,orange-pl,Orange,Orange Polska,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,ending,2025,telepolis-pl
-PL,tmobile-pl,T-Mobile,Deutsche Telekom,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,off,2023,telepolis-pl
+NL,kpn,KPN,KPN,unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",unlisted,,planned,2027-12-01,wl-sunset,off,2022,totaltele-kpn
+NL,vodafone-nl,Vodafone,VodafoneZiggo,unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2028,wl-sunset,off,2020,bright-2g
+NL,odido,Odido,Odido (formerly T-Mobile Netherlands),unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",off,2023,acm-2g3g,ending,2026,emerce-odido
+PL,orange-pl,Orange,Orange Polska,unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,gsma-iot,none,,,ending,2025,telepolis-pl
+PL,tmobile-pl,T-Mobile,Deutsche Telekom,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,off,2023,telepolis-pl
 PL,play-pl,Play,Iliad,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,ending,2026,prepaid-pl
 PL,plus-pl,Plus,Polkomtel (Cyfrowy Polsat),unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,none,,
-MX,telcel,Telcel,América Móvil,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,unlisted,,none,,,none,,
-MX,att-mx,AT&T,AT&T,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,never,,operatorwatch-mx,none,,
-MX,altan,Altán,"Altán Redes (Red Compartida, wholesale)",unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,never,,altan-redes,never,,altan-redes
-BR,vivo-br,Vivo,Telefônica Brasil,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,dc-vivo-2g,none,,
-BR,claro-br,Claro,América Móvil,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,none,,
-BR,tim-br,TIM,TIM Brasil (Telecom Italia),unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,none,,,none,,
+MX,telcel,Telcel,América Móvil,unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"monogoto-lpwa,lansitec-lpwa",none,,,none,,
+MX,att-mx,AT&T,AT&T,unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",never,,operatorwatch-mx,none,,
+MX,altan,Altán,"Altán Redes (Red Compartida, wholesale)",unknown,,,none,,gsa-redcap-2604,yes,lansitec-lpwa,yes,lansitec-lpwa,never,,altan-redes,never,,altan-redes
+BR,vivo-br,Vivo,Telefônica Brasil,unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",none,,dc-vivo-2g,none,,
+BR,claro-br,Claro,América Móvil,unknown,,,none,,gsa-redcap-2604,yes,lansitec-lpwa,yes,lansitec-lpwa,none,,,none,,
+BR,tim-br,TIM,TIM Brasil (Telecom Italia),unknown,,,none,,gsa-redcap-2604,unlisted,,yes,"gsma-iot,lansitec-lpwa",none,,,none,,
 IN,jio,Jio,Reliance Jio,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,never,,lightreading-vi,never,,lightreading-vi
-IN,airtel,Airtel,Bharti Airtel,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,telenet-airtel,off,2020,telenet-airtel
-IN,vi-in,Vi,Vodafone Idea,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,voicendata-vi,ending,,voicendata-vi
+IN,airtel,Airtel,Bharti Airtel,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,monogoto-lpwa,none,,telenet-airtel,off,2020,telenet-airtel
+IN,vi-in,Vi,Vodafone Idea,unknown,,,none,,gsa-redcap-2604,yes,monogoto-lpwa,unlisted,,none,,voicendata-vi,ending,,voicendata-vi
 IN,bsnl,BSNL,Government of India,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,none,,
-SG,singtel,Singtel,Singtel,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,off,2017,ptw-sg-2g,off,2024,abi-3g-sg
-SG,starhub,StarHub,StarHub,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,off,2017,ptw-sg-2g,off,2024,abi-3g-sg
-SG,m1,M1,M1 (Keppel),unknown,,,yes,,gsa-redcap-2604,unlisted,,yes,gsma-iot,off,2017,ptw-sg-2g,off,2024,abi-3g-sg
+SG,singtel,Singtel,Singtel,unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2017,ptw-sg-2g,off,2024,abi-3g-sg
+SG,starhub,StarHub,StarHub,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2017,ptw-sg-2g,off,2024,abi-3g-sg
+SG,m1,M1,M1 (Keppel),unknown,,,yes,,gsa-redcap-2604,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2017,ptw-sg-2g,off,2024,abi-3g-sg
 SG,simba,SIMBA,"SIMBA Telecom (Tuas, formerly TPG Singapore)",unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,never,,powertec-simba,never,,powertec-simba
-ID,telkomsel,Telkomsel,Telkom Indonesia,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,none,,,ending,2022,prepaid-id
-ID,indosat,Indosat,Indosat Ooredoo Hutchison,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,ending,2022,prepaid-id
-ID,xlsmart,XLSMART,XL Axiata and Smartfren (merged),unknown,,,none,,gsa-redcap-2604,unlisted,,yes,gsma-iot,none,,,ending,2022,prepaid-id
-TR,turkcell,Turkcell,Turkcell,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,none,,
-TR,vodafone-tr,Vodafone,Vodafone Türkiye,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,gsma-iot,none,,,none,,
+ID,telkomsel,Telkomsel,Telkom Indonesia,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,ending,2022,prepaid-id
+ID,indosat,Indosat,Indosat Ooredoo Hutchison,unknown,,,none,,gsa-redcap-2604,unlisted,,yes,monogoto-lpwa,none,,,ending,2022,prepaid-id
+ID,xlsmart,XLSMART,XL Axiata and Smartfren (merged),unknown,,,none,,gsa-redcap-2604,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,ending,2022,prepaid-id
+TR,turkcell,Turkcell,Turkcell,unknown,,,none,,gsa-redcap-2604,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,none,,
+TR,vodafone-tr,Vodafone,Vodafone Türkiye,unknown,,,none,,gsa-redcap-2604,yes,gsma-iot,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,none,,
 TR,turktelekom,Türk Telekom,Türk Telekom,unknown,,,none,,gsa-redcap-2604,unlisted,,unlisted,,none,,,none,,
-ES,movistar-es,Movistar,Telefónica,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,planned,2030,wl-sunset,ending,2027-12-31,wl-sunset
-ES,vodafone-es,Vodafone,Zegona (Vodafone brand),unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,planned,2027,wl-sunset,off,2024,xataka-3g-es
-ES,masorange-es,MasOrange,"MasOrange (Orange, Yoigo, MásMóvil)",yes,,gsa-redcap,yes,,gsa-redcap,yes,gsma-iot,yes,gsma-iot,planned,2030-12-31,roams-masorange,planned,2027-12-31,roams-masorange
-AU,telstra-au,Telstra,Telstra,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,none,,,off,2024-10-28,bizgov-3g-au
-AU,optus-au,Optus,Singtel,yes,,gsa-redcap,yes,,gsa-redcap,unlisted,gsma-iot,yes,gsma-iot,none,,,off,2024-10-28,bizgov-3g-au
-AU,vodafone-au,Vodafone,TPG Telecom,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,none,,,off,2024-01,dcd-au-3g
-NZ,spark-nz,Spark,Spark New Zealand,unknown,,,unknown,,,yes,gsma-iot,unlisted,gsma-iot,none,,,off,2026-03-31,dcd-spark-3g
-NZ,one-nz,One NZ,One New Zealand (formerly Vodafone NZ),unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,off,2026-03,nzb-2g,off,2026-03,dcd-spark-3g
-NZ,2degrees-nz,2degrees,2degrees,unknown,,,unknown,,,unlisted,gsma-iot,unlisted,gsma-iot,none,,,off,2026-02,dcd-spark-3g
-RU,ru-mts,MTS,MTS,unknown,,,unknown,,,unlisted,,yes,gsma-iot,unknown,,,unknown,,
-RU,ru-megafon,MegaFon,MegaFon,unknown,,,unknown,,,unlisted,,yes,gsma-iot,unknown,,,unknown,,
-RU,ru-beeline,Beeline,VEON,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-RU,ru-t2,T2 (Tele2),Rostelecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-UA,ua-kyivstar,Kyivstar,VEON,unknown,,,unknown,,,unlisted,,yes,gsma-iot,unknown,,,unknown,,
+ES,movistar-es,Movistar,Telefónica,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2030,wl-sunset,ending,2027-12-31,wl-sunset
+ES,vodafone-es,Vodafone,Zegona (Vodafone brand),unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2027,wl-sunset,off,2024,xataka-3g-es
+ES,masorange-es,MasOrange,"MasOrange (Orange, Yoigo, MásMóvil)",yes,,gsa-redcap,yes,,gsa-redcap,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",planned,2030-12-31,roams-masorange,planned,2027-12-31,roams-masorange
+AU,telstra-au,Telstra,Telstra,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",none,,,off,2024-10-28,bizgov-3g-au
+AU,optus-au,Optus,Singtel,yes,,gsa-redcap,yes,,gsa-redcap,unlisted,gsma-iot,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,off,2024-10-28,bizgov-3g-au
+AU,vodafone-au,Vodafone,TPG Telecom,unknown,,,unknown,,,yes,gsma-iot,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,off,2024-01,dcd-au-3g
+NZ,spark-nz,Spark,Spark New Zealand,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,lansitec-lpwa,none,,,off,2026-03-31,dcd-spark-3g
+NZ,one-nz,One NZ,One New Zealand (formerly Vodafone NZ),unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",off,2026-03,nzb-2g,off,2026-03,dcd-spark-3g
+NZ,2degrees-nz,2degrees,2degrees,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,gsma-iot,none,,,off,2026-02,dcd-spark-3g
+RU,ru-mts,MTS,MTS,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
+RU,ru-megafon,MegaFon,MegaFon,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
+RU,ru-beeline,Beeline,VEON,unknown,,,unknown,,,yes,monogoto-lpwa,yes,monogoto-lpwa,unknown,,,unknown,,
+RU,ru-t2,T2 (Tele2),Rostelecom,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
+UA,ua-kyivstar,Kyivstar,VEON,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
 UA,ua-lifecell,lifecell,lifecell,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-UA,ua-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
-BY,by-a1,A1,A1,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
-BY,by-mts,MTS,MTS,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+UA,ua-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+BY,by-a1,A1,A1,unknown,,,unknown,,,yes,gsma-iot,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+BY,by-mts,MTS,MTS,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
 BY,by-life,life:),life:),unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 RS,rs-mts,mts,Telekom Srbija,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 RS,rs-yettel,Yettel,Yettel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-RS,rs-a1,A1,A1,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
-MK,mk-makedonski-telekom,Makedonski Telekom,Deutsche Telekom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+RS,rs-a1,A1,A1,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+MK,mk-makedonski-telekom,Makedonski Telekom,Deutsche Telekom,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
 MK,mk-a1,A1,A1,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 ME,me-crnogorski-telekom,Crnogorski Telekom,Deutsche Telekom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 ME,me-one,One,4iG,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-AL,al-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+AL,al-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 AL,al-one,One,4iG,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 MD,md-orange,Orange,Orange,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 MD,md-moldcell,Moldcell,Moldcell,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 MD,md-unite,Unité,Moldtelecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LI,li-fl1,FL1,Telecom Liechtenstein,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+LI,li-fl1,FL1,Telecom Liechtenstein,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 LI,li-swisscom,Swisscom,Swisscom,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
 LI,li-salt,Salt,Salt,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-AD,ad-andorra-telecom,Andorra Telecom,Andorra Telecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+AD,ad-andorra-telecom,Andorra Telecom,Andorra Telecom,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
 MC,mc-monaco-telecom,Monaco Telecom,Monaco Telecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 PK,pk-jazz,Jazz,VEON,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 PK,pk-zong,Zong,China Mobile,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 PK,pk-telenor,Telenor,PTCL,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
 PK,pk-ufone,Ufone,PTCL,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-BD,bd-grameenphone,Grameenphone,Telenor,unknown,,,unknown,,,unlisted,,yes,gsma-iot,unknown,,,unknown,,
+BD,bd-grameenphone,Grameenphone,Telenor,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
 BD,bd-robi,Robi Airtel,Axiata,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 BD,bd-banglalink,Banglalink,VEON,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 BD,bd-teletalk,Teletalk,Teletalk,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 KZ,kz-beeline,Beeline,VEON,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-KZ,kz-kcell,Kcell,Kazakhtelecom,unknown,,,unknown,,,unlisted,,yes,gsma-iot,unknown,,,unknown,,
+KZ,kz-kcell,Kcell,Kazakhtelecom,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,lansitec-lpwa",unknown,,,unknown,,
 KZ,kz-tele2-altel,Tele2 / Altel,Kazakhtelecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LK,lk-dialog,Dialog,Axiata,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LK,lk-mobitel,Mobitel (SLT),SLT,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+LK,lk-dialog,Dialog,Axiata,unknown,,,unknown,,,yes,"monogoto-lpwa,lansitec-lpwa",yes,"monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+LK,lk-mobitel,Mobitel (SLT),SLT,unknown,,,unknown,,,unlisted,,yes,"monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
 LK,lk-hutch,Hutch,CK Hutchison,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-UZ,uz-ucell,Ucell,Ucell,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-UZ,uz-beeline,Beeline,VEON,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+UZ,uz-ucell,Ucell,Ucell,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
+UZ,uz-beeline,Beeline,VEON,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 UZ,uz-uzmobile,Uzmobile,Uztelecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 UZ,uz-mobiuz,Mobiuz,Mobiuz,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 MM,mm-mpt,MPT,MPT,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
@@ -162,7 +162,7 @@ TJ,tj-tcell,Tcell,Tcell,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknow
 TJ,tj-zet,ZET-Mobile,ZET-Mobile,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 TM,tm-tmcell,TMCELL,Altyn Asyr,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 LA,la-ltc,Lao Telecom,Lao Telecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LA,la-unitel,Unitel,Viettel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+LA,la-unitel,Unitel,Viettel,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
 BT,bt-btl,B-Mobile,Bhutan Telecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 BT,bt-tashicell,TashiCell,TashiCell,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 MV,mv-dhiraagu,Dhiraagu,Dhiraagu,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
@@ -180,26 +180,26 @@ LB,lb-alfa,Alfa,Alfa,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 LB,lb-touch,touch,touch,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 SY,sy-syriatel,Syriatel,Syriatel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 SY,sy-mtn,MTN,MTN,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-UY,uy-antel,Antel,Antel,unknown,,,unknown,,,unlisted,,yes,gsma-iot,unknown,,,unknown,,
-UY,uy-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-UY,uy-movistar,Movistar,Millicom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+UY,uy-antel,Antel,Antel,unknown,,,unknown,,,yes,lansitec-lpwa,yes,"gsma-iot,lansitec-lpwa",unknown,,,unknown,,
+UY,uy-claro,Claro,América Móvil,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
+UY,uy-movistar,Movistar,Millicom,unknown,,,unknown,,,yes,thingsmobile-ltem,unlisted,,unknown,,,unknown,,
 CR,cr-kolbi,Kölbi,ICE,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-CR,cr-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-CR,cr-liberty,Liberty,Liberty Latin America,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+CR,cr-claro,Claro,América Móvil,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
+CR,cr-liberty,Liberty,Liberty Latin America,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 PA,pa-mas-movil,+Móvil,Liberty Latin America,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 PA,pa-tigo,Tigo,Millicom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 DO,do-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 DO,do-altice,Altice,Altice,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 DO,do-viva,Viva,Viva,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-EC,ec-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-EC,ec-movistar,Movistar,Telefónica,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+EC,ec-claro,Claro,América Móvil,unknown,,,unknown,,,yes,lansitec-lpwa,unlisted,,unknown,,,unknown,,
+EC,ec-movistar,Movistar,Telefónica,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 EC,ec-cnt,CNT,CNT,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-GT,gt-tigo,Tigo,Millicom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+GT,gt-tigo,Tigo,Millicom,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 GT,gt-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 TT,tt-bmobile,bmobile,TSTT,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 TT,tt-digicel,Digicel,Digicel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-JM,jm-digicel,Digicel,Digicel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-JM,jm-flow,FLOW,Liberty Latin America,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+JM,jm-digicel,Digicel,Digicel,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
+JM,jm-flow,FLOW,Liberty Latin America,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 PY,py-tigo,Tigo,Millicom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 PY,py-personal,Personal,Núcleo,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 PY,py-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
@@ -208,7 +208,7 @@ BO,bo-entel,Entel,Entel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknow
 BO,bo-tigo,Tigo,Millicom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 BO,bo-viva,Viva,NuevaTel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 HN,hn-tigo,Tigo,Millicom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-HN,hn-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+HN,hn-claro,Claro,América Móvil,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 SV,sv-tigo,Tigo,Millicom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 SV,sv-movistar,Movistar,Telefónica,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 NI,ni-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
@@ -253,15 +253,15 @@ EG,eg-we,WE,Telecom Egypt,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unkn
 MA,ma-maroc-telecom,Maroc Telecom,Maroc Telecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 MA,ma-orange,Orange,Orange,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 MA,ma-inwi,inwi,inwi,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-KE,ke-safaricom,Safaricom,Vodacom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-KE,ke-airtel,Airtel,Airtel Africa,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+KE,ke-safaricom,Safaricom,Vodacom,unknown,,,unknown,,,unlisted,,yes,"monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+KE,ke-airtel,Airtel,Airtel Africa,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 KE,ke-telkom,Telkom,Telkom Kenya,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 KE,ke-faiba,Faiba,Jamii,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 DZ,dz-mobilis,Mobilis,Algérie Télécom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 DZ,dz-djezzy,Djezzy,Djezzy,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 DZ,dz-ooredoo,Ooredoo,Ooredoo,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 TN,tn-tunisie-telecom,Tunisie Telecom,Tunisie Telecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-TN,tn-ooredoo,Ooredoo,Ooredoo,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+TN,tn-ooredoo,Ooredoo,Ooredoo,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
 TN,tn-orange,Orange,Orange,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 GH,gh-mtn,MTN,MTN,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 GH,gh-telecel,Telecel (Vodafone),Telecel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
@@ -337,17 +337,17 @@ DJ,dj-djibouti-telecom,Djibouti Telecom,Djibouti Telecom,unknown,,,unknown,,,unl
 CV,cv-cvmovel,CVMóvel,CV Telecom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 SC,sc-airtel,Airtel,Airtel Africa,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 KM,km-telma,Telma,Axian,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-RE,re-sfr,SFR,SFR,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+RE,re-sfr,SFR,SFR,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 RE,re-orange,Orange,Orange,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 RE,re-free,Free,Iliad,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 RE,re-zeop,Zeop,Zeop,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-VN,vn-viettel,Viettel,Viettel,unknown,,,unknown,,,unlisted,,yes,gsma-iot,ending,2026-09,wl-sunset,none,,
-VN,vn-vinaphone,VinaPhone,VNPT,unknown,,,unknown,,,unlisted,,unlisted,,ending,2026-09,wl-sunset,off,2024-06,pt-vinaphone
+VN,vn-viettel,Viettel,Viettel,unknown,,,unknown,,,yes,monogoto-lpwa,yes,"gsma-iot,monogoto-lpwa",ending,2026-09,wl-sunset,none,,
+VN,vn-vinaphone,VinaPhone,VNPT,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,ending,2026-09,wl-sunset,off,2024-06,pt-vinaphone
 VN,vn-mobifone,MobiFone,MobiFone,unknown,,,unknown,,,unlisted,,unlisted,,ending,2026-09,wl-sunset,none,,
-TH,th-ais,AIS,AIS (Gulf),unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,ending,2026-09,wl-sunset,ending,2026-09,wl-sunset
-TH,th-true,True,True Corporation (True|dtac),unknown,,,unknown,,,unlisted,,yes,gsma-iot,none,,,none,,
+TH,th-ais,AIS,AIS (Gulf),unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",ending,2026-09,wl-sunset,ending,2026-09,wl-sunset
+TH,th-true,True,True Corporation (True|dtac),unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,none,,
 TH,th-nt,NT Mobile,National Telecom,unknown,,,unknown,,,unlisted,,unlisted,,off,2019,wl-sunset,none,,
-MY,my-maxis,Maxis,Maxis,unknown,,,unknown,,,unlisted,,unlisted,,none,,,off,2021,wl-sunset
+MY,my-maxis,Maxis,Maxis,unknown,,,unknown,,,unlisted,,yes,"monogoto-lpwa,lansitec-lpwa",none,,,off,2021,wl-sunset
 MY,my-celcomdigi,CelcomDigi,CelcomDigi,unknown,,,unknown,,,unlisted,,unlisted,,ending,2024-12,wl-sunset,off,2021,wl-sunset
 MY,my-umobile,U Mobile,U Mobile,unknown,,,unknown,,,unlisted,,unlisted,,none,,,off,2021,wl-sunset
 MY,my-yes,Yes,YTL,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
@@ -355,22 +355,22 @@ MY,my-unifi,Unifi Mobile,Telekom Malaysia,unknown,,,unknown,,,unlisted,,unlisted
 PH,ph-globe,Globe,Globe Telecom,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
 PH,ph-smart,Smart,PLDT,unknown,,,unknown,,,unlisted,,unlisted,,none,,,ending,2026,wl-sunset
 PH,ph-dito,DITO,DITO Telecommunity,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-CO,co-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,off,2023,wl-sunset,none,,
-CO,co-movistar,Movistar,Telefónica,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-CO,co-tigo,Tigo,Millicom,unknown,,,unknown,,,unlisted,,unlisted,,off,2022,wl-sunset,none,,
+CO,co-claro,Claro,América Móvil,unknown,,,unknown,,,yes,lansitec-lpwa,yes,lansitec-lpwa,off,2023,wl-sunset,none,,
+CO,co-movistar,Movistar,Telefónica,unknown,,,unknown,,,yes,"monogoto-lpwa,lansitec-lpwa",yes,lansitec-lpwa,none,,,none,,
+CO,co-tigo,Tigo,Millicom,unknown,,,unknown,,,yes,monogoto-lpwa,yes,monogoto-lpwa,off,2022,wl-sunset,none,,
 CO,co-wom,WOM,WOM,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-PE,pe-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-PE,pe-movistar,Movistar,Telefónica,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-PE,pe-entel,Entel,Entel,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
+PE,pe-claro,Claro,América Móvil,unknown,,,unknown,,,yes,lansitec-lpwa,yes,lansitec-lpwa,none,,,none,,
+PE,pe-movistar,Movistar,Telefónica,unknown,,,unknown,,,yes,lansitec-lpwa,yes,lansitec-lpwa,none,,,none,,
+PE,pe-entel,Entel,Entel,unknown,,,unknown,,,yes,lansitec-lpwa,unlisted,,none,,,none,,
 PE,pe-bitel,Bitel,Viettel,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-CL,cl-entel,Entel,Entel,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-CL,cl-movistar,Movistar,Telefónica,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-CL,cl-claro,Claro,América Móvil (Claro-VTR),unknown,,,unknown,,,unlisted,,unlisted,,off,2023,wl-sunset,ending,2026,wl-sunset
+CL,cl-entel,Entel,Entel,unknown,,,unknown,,,yes,monogoto-lpwa,yes,"monogoto-lpwa,lansitec-lpwa",none,,,none,,
+CL,cl-movistar,Movistar,Telefónica,unknown,,,unknown,,,unlisted,,yes,lansitec-lpwa,none,,,none,,
+CL,cl-claro,Claro,América Móvil (Claro-VTR),unknown,,,unknown,,,yes,"monogoto-lpwa,lansitec-lpwa",yes,"monogoto-lpwa,lansitec-lpwa",off,2023,wl-sunset,ending,2026,wl-sunset
 CL,cl-wom,WOM,WOM,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-AR,ar-personal,Personal,Telecom Argentina,unknown,,,unknown,,,unlisted,,unlisted,,none,,,off,2023,wl-sunset
-AR,ar-claro,Claro,América Móvil,unknown,,,unknown,,,unlisted,,unlisted,,off,2023,wl-sunset,off,2023,wl-sunset
-AR,ar-movistar,Movistar,Telefónica,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-ZA,za-vodacom,Vodacom,Vodafone,unknown,,,unknown,,,unlisted,,unlisted,,ending,2027-12,wl-sunset,planned,2027-12,wl-sunset
+AR,ar-personal,Personal,Telecom Argentina,unknown,,,unknown,,,yes,"monogoto-lpwa,lansitec-lpwa",yes,lansitec-lpwa,none,,,off,2023,wl-sunset
+AR,ar-claro,Claro,América Móvil,unknown,,,unknown,,,yes,"monogoto-lpwa,lansitec-lpwa",yes,lansitec-lpwa,off,2023,wl-sunset,off,2023,wl-sunset
+AR,ar-movistar,Movistar,Telefónica,unknown,,,unknown,,,yes,"monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,lansitec-lpwa,none,,,none,,
+ZA,za-vodacom,Vodacom,Vodafone,unknown,,,unknown,,,unlisted,,yes,"monogoto-lpwa,lansitec-lpwa",ending,2027-12,wl-sunset,planned,2027-12,wl-sunset
 ZA,za-mtn,MTN,MTN,unknown,,,unknown,,,unlisted,,unlisted,,planned,2027-12,wl-sunset,planned,2026-12,wl-sunset
 ZA,za-telkom,Telkom,Telkom,unknown,,,unknown,,,unlisted,,unlisted,,off,,wl-sunset,planned,2027-12,wl-sunset
 ZA,za-rain,Rain,Rain,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
@@ -380,87 +380,87 @@ OM,om-vodafone,Vodafone,Vodafone Oman,unknown,,,unknown,,,unlisted,,unlisted,,no
 BH,bh-batelco,Batelco,Beyon,unknown,,,unknown,,,unlisted,,unlisted,,off,2021,wl-sunset,none,,
 BH,bh-zain,Zain,Zain,unknown,,,unknown,,,unlisted,,unlisted,,none,,,ending,2022-07,wl-sunset
 BH,bh-stc,stc,stc,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-HK,hk-csl,csl,HKT,unknown,,,unknown,,,unlisted,,unlisted,,off,2021,wl-sunset,none,,
-HK,hk-smartone,SmarTone,SmarTone,unknown,,,unknown,,,unlisted,,yes,gsma-iot,off,2022-10,wl-sunset,ending,2026-09,wl-sunset
-HK,hk-three,3 (Three),CK Hutchison,unknown,,,unknown,,,unlisted,,yes,gsma-iot,off,2021,wl-sunset,planned,2026-10,wl-sunset
-HK,hk-chinamobilehongkong,China Mobile Hong Kong,China Mobile,unknown,,,unknown,,,unlisted,,yes,gsma-iot,none,,,none,,
-TW,tw-chunghwatelecom,Chunghwa Telecom,Chunghwa Telecom,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,off,2017,wl-sunset,off,2024-12,wl-sunset
-TW,tw-fareastone,FarEasTone,Far EasTone,unknown,,,unknown,,,unlisted,,yes,gsma-iot,off,2017,wl-sunset,off,2024-06,wl-sunset
-TW,tw-taiwanmobile,Taiwan Mobile,Taiwan Mobile,unknown,,,unknown,,,unlisted,,yes,gsma-iot,off,2017,wl-sunset,off,2024-06,wl-sunset
-IE,ie-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,ending,2025-12,wl-sunset,off,2024-12,wl-sunset
-IE,ie-three,Three,CK Hutchison,unknown,,,unknown,,,unlisted,,unlisted,,none,,,off,2024-12,wl-sunset
+HK,hk-csl,csl,HKT,unknown,,,unknown,,,yes,monogoto-lpwa,yes,monogoto-lpwa,off,2021,wl-sunset,none,,
+HK,hk-smartone,SmarTone,SmarTone,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2022-10,wl-sunset,ending,2026-09,wl-sunset
+HK,hk-three,3 (Three),CK Hutchison,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2021,wl-sunset,planned,2026-10,wl-sunset
+HK,hk-chinamobilehongkong,China Mobile Hong Kong,China Mobile,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,none,,
+TW,tw-chunghwatelecom,Chunghwa Telecom,Chunghwa Telecom,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2017,wl-sunset,off,2024-12,wl-sunset
+TW,tw-fareastone,FarEasTone,Far EasTone,unknown,,,unknown,,,yes,monogoto-lpwa,yes,"gsma-iot,lansitec-lpwa",off,2017,wl-sunset,off,2024-06,wl-sunset
+TW,tw-taiwanmobile,Taiwan Mobile,Taiwan Mobile,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa",off,2017,wl-sunset,off,2024-06,wl-sunset
+IE,ie-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,lansitec-lpwa",ending,2025-12,wl-sunset,off,2024-12,wl-sunset
+IE,ie-three,Three,CK Hutchison,unknown,,,unknown,,,yes,monogoto-lpwa,yes,monogoto-lpwa,none,,,off,2024-12,wl-sunset
 IE,ie-eir,Eir,eir,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-BE,be-proximus,Proximus,Proximus,unknown,,,unknown,,,unlisted,,yes,gsma-iot,planned,2029-06,wl-sunset,off,2024-12,wl-sunset
-BE,be-base,BASE,Telenet (Liberty Global),unknown,,,unknown,,,unlisted,,yes,gsma-iot,none,,,none,,
-BE,be-orange,Orange,Orange,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,planned,2028-12,wl-sunset,off,2025-07,wl-sunset
-CH,ch-swisscom,Swisscom,Swisscom,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,off,2020,wl-sunset,off,2026-04,wl-sunset
-CH,ch-sunrise,Sunrise,Sunrise,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,off,2023,wl-sunset,off,2025-06,wl-sunset
+BE,be-proximus,Proximus,Proximus,unknown,,,unknown,,,yes,monogoto-lpwa,yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2029-06,wl-sunset,off,2024-12,wl-sunset
+BE,be-base,BASE,Telenet (Liberty Global),unknown,,,unknown,,,yes,"monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,none,,
+BE,be-orange,Orange,Orange,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2028-12,wl-sunset,off,2025-07,wl-sunset
+CH,ch-swisscom,Swisscom,Swisscom,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",off,2020,wl-sunset,off,2026-04,wl-sunset
+CH,ch-sunrise,Sunrise,Sunrise,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,monogoto-lpwa",off,2023,wl-sunset,off,2025-06,wl-sunset
 CH,ch-salt,Salt,Salt,unknown,,,unknown,,,unlisted,,unlisted,,off,2020,wl-sunset,none,,
-AT,at-a1,A1,A1 Group,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,none,,,off,2025-06,wl-sunset
-AT,at-magenta,Magenta,Deutsche Telekom,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-AT,at-drei,Drei,CK Hutchison,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-PT,pt-meo,MEO,Altice,unknown,,,unknown,,,unlisted,,unlisted,,none,,,ending,2023-09,wl-sunset
-PT,pt-nos,NOS,NOS,unknown,,,unknown,,,unlisted,,yes,gsma-iot,none,,,none,,
-PT,pt-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,ending,2025-12,wl-sunset,off,2024,wl-sunset
+AT,at-a1,A1,A1 Group,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",none,,,off,2025-06,wl-sunset
+AT,at-magenta,Magenta,Deutsche Telekom,unknown,,,unknown,,,yes,"monogoto-lpwa,thingsmobile-ltem",yes,"monogoto-lpwa,lansitec-lpwa",none,,,none,,
+AT,at-drei,Drei,CK Hutchison,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,none,,,none,,
+PT,pt-meo,MEO,Altice,unknown,,,unknown,,,yes,"monogoto-lpwa,thingsmobile-ltem",yes,lansitec-lpwa,none,,,ending,2023-09,wl-sunset
+PT,pt-nos,NOS,NOS,unknown,,,unknown,,,yes,"monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,lansitec-lpwa",none,,,none,,
+PT,pt-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,lansitec-lpwa",ending,2025-12,wl-sunset,off,2024,wl-sunset
 PT,pt-digi,Digi,Digi,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-SE,se-telia,Telia,Telia,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,planned,2027-12,wl-sunset,off,2023,wl-sunset
-SE,se-tele2,Tele2,Tele2,unknown,,,unknown,,,yes,gsma-iot,unlisted,,off,2025-12,wl-sunset,off,2025-12,wl-sunset
-SE,se-telenor,Telenor,Telenor,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,off,2025-12,wl-sunset,off,2025-12,wl-sunset
-SE,se-tre,Tre,CK Hutchison,unknown,,,unknown,,,unlisted,,unlisted,,none,,,off,2025-12,wl-sunset
-DK,dk-tdc,TDC,TDC Net,unknown,,,unknown,,,unlisted,,yes,gsma-iot,planned,2030,wl-sunset,off,2023-11,wl-sunset
-DK,dk-telenor,Telenor,Telenor,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,planned,2030,wl-sunset,off,2023-10,wl-sunset
-DK,dk-telia,Telia,Telia,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,none,,,off,2023,wl-sunset
-DK,dk-three,3 (Three),CK Hutchison,unknown,,,unknown,,,unlisted,,unlisted,,none,,,off,2025-12,wl-sunset
-NO,no-telenor,Telenor,Telenor,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,planned,2027-12,wl-sunset,off,2021,wl-sunset
-NO,no-telia,Telia,Telia,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,off,2025-12,wl-sunset,off,2021,wl-sunset
+SE,se-telia,Telia,Telia,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,lansitec-lpwa",planned,2027-12,wl-sunset,off,2023,wl-sunset
+SE,se-tele2,Tele2,Tele2,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",unlisted,,off,2025-12,wl-sunset,off,2025-12,wl-sunset
+SE,se-telenor,Telenor,Telenor,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,gsma-iot,off,2025-12,wl-sunset,off,2025-12,wl-sunset
+SE,se-tre,Tre,CK Hutchison,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,none,,,off,2025-12,wl-sunset
+DK,dk-tdc,TDC,TDC Net,unknown,,,unknown,,,yes,"monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2030,wl-sunset,off,2023-11,wl-sunset
+DK,dk-telenor,Telenor,Telenor,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2030,wl-sunset,off,2023-10,wl-sunset
+DK,dk-telia,Telia,Telia,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,lansitec-lpwa",none,,,off,2023,wl-sunset
+DK,dk-three,3 (Three),CK Hutchison,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,none,,,off,2025-12,wl-sunset
+NO,no-telenor,Telenor,Telenor,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",planned,2027-12,wl-sunset,off,2021,wl-sunset
+NO,no-telia,Telia,Telia,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,lansitec-lpwa",off,2025-12,wl-sunset,off,2021,wl-sunset
 NO,no-ice,Ice,Lyse,unknown,,,unknown,,,unlisted,,unlisted,,none,,,none,,
-RO,ro-orange,Orange,Orange,unknown,,,unknown,,,yes,dt-iot-roam,yes,gsma-iot,unknown,,,unknown,,
-RO,ro-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,dt-iot-roam,yes,gsma-iot,unknown,,,unknown,,
+RO,ro-orange,Orange,Orange,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
+RO,ro-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
 RO,ro-digi,Digi,Digi,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 RO,ro-telekom,Telekom,Deutsche Telekom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-CZ,cz-t-mobile,T-Mobile,Deutsche Telekom,unknown,,,unknown,,,yes,dt-iot-roam,yes,dt-iot-roam,unknown,,,unknown,,
-CZ,cz-o2,O2,O2,unknown,,,unknown,,,yes,dt-iot-roam,unlisted,,unknown,,,unknown,,
-CZ,cz-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,dt-iot-roam,yes,dt-iot-roam,unknown,,,unknown,,
-FI,fi-dna,DNA,Telenor,unknown,,,unknown,,,yes,dt-iot-roam,yes,dt-iot-roam,unknown,,,unknown,,
-FI,fi-elisa,Elisa,Elisa,unknown,,,unknown,,,yes,dt-iot-roam,yes,dt-iot-roam,unknown,,,unknown,,
-FI,fi-telia,Telia,Telia,unknown,,,unknown,,,yes,dt-iot-roam,yes,dt-iot-roam,unknown,,,unknown,,
-GR,gr-cosmote,Cosmote,Deutsche Telekom,unknown,,,unknown,,,yes,onomondo-ltem,yes,dt-iot-roam,unknown,,,unknown,,
-GR,gr-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,onomondo-ltem,yes,dt-iot-roam,unknown,,,unknown,,
-GR,gr-nova,NOVA,NOVA,unknown,,,unknown,,,yes,onomondo-ltem,yes,dt-iot-roam,unknown,,,unknown,,
-HU,hu-magyar-telekom,Magyar Telekom,Deutsche Telekom,unknown,,,unknown,,,yes,dt-iot-roam,yes,dt-iot-roam,unknown,,,unknown,,
-HU,hu-vodafone,One (Vodafone),Vodafone,unknown,,,unknown,,,yes,dt-iot-roam,yes,dt-iot-roam,unknown,,,unknown,,
-HU,hu-yettel,Yettel,Yettel,unknown,,,unknown,,,yes,dt-iot-roam,unlisted,,unknown,,,unknown,,
-SK,sk-telekom,Telekom,Deutsche Telekom,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
-SK,sk-orange,Orange,Orange,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+CZ,cz-t-mobile,T-Mobile,Deutsche Telekom,unknown,,,unknown,,,yes,dt-iot-roam,yes,"dt-iot-roam,monogoto-lpwa",unknown,,,unknown,,
+CZ,cz-o2,O2,O2,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem",unlisted,,unknown,,,unknown,,
+CZ,cz-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa",yes,"dt-iot-roam,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+FI,fi-dna,DNA,Telenor,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,lansitec-lpwa",yes,"dt-iot-roam,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+FI,fi-elisa,Elisa,Elisa,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem",yes,"dt-iot-roam,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+FI,fi-telia,Telia,Telia,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem",yes,"dt-iot-roam,lansitec-lpwa",unknown,,,unknown,,
+GR,gr-cosmote,Cosmote,Deutsche Telekom,unknown,,,unknown,,,yes,onomondo-ltem,yes,"dt-iot-roam,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+GR,gr-vodafone,Vodafone,Vodafone,unknown,,,unknown,,,yes,"onomondo-ltem,monogoto-lpwa",yes,"dt-iot-roam,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+GR,gr-nova,NOVA,NOVA,unknown,,,unknown,,,yes,"onomondo-ltem,monogoto-lpwa",yes,"dt-iot-roam,monogoto-lpwa",unknown,,,unknown,,
+HU,hu-magyar-telekom,Magyar Telekom,Deutsche Telekom,unknown,,,unknown,,,yes,"dt-iot-roam,thingsmobile-ltem",yes,"dt-iot-roam,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+HU,hu-vodafone,One (Vodafone),Vodafone,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"dt-iot-roam,lansitec-lpwa",unknown,,,unknown,,
+HU,hu-yettel,Yettel,Yettel,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem",yes,monogoto-lpwa,unknown,,,unknown,,
+SK,sk-telekom,Telekom,Deutsche Telekom,unknown,,,unknown,,,yes,gsma-iot,yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
+SK,sk-orange,Orange,Orange,unknown,,,unknown,,,yes,"monogoto-lpwa,thingsmobile-ltem",unlisted,,unknown,,,unknown,,
 SK,sk-o2,O2,O2,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 SK,sk-4ka,4ka,4ka,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-BG,bg-a1,A1,A1,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
-BG,bg-yettel,Yettel,Yettel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+BG,bg-a1,A1,A1,unknown,,,unknown,,,yes,gsma-iot,yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
+BG,bg-yettel,Yettel,Yettel,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
 BG,bg-vivacom,Vivacom,Vivacom,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-HR,hr-hrvatski-telekom,Hrvatski Telekom,Deutsche Telekom,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
-HR,hr-a1,A1,A1,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
+HR,hr-hrvatski-telekom,Hrvatski Telekom,Deutsche Telekom,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,lansitec-lpwa",unknown,,,unknown,,
+HR,hr-a1,A1,A1,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
 HR,hr-telemach,Telemach,Telemach,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-SI,si-telekom-slovenije,Telekom Slovenije,Telekom Slovenije,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-SI,si-a1,A1,A1,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
+SI,si-telekom-slovenije,Telekom Slovenije,Telekom Slovenije,unknown,,,unknown,,,unlisted,,yes,"monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+SI,si-a1,A1,A1,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
 SI,si-telemach,Telemach,Telemach,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LT,lt-telia,Telia,Telia,unknown,,,unknown,,,yes,gsma-iot,yes,gsma-iot,unknown,,,unknown,,
-LT,lt-bite,Bite,Bite,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LT,lt-tele2,Tele2,Tele2,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LV,lv-lmt,LMT,LMT,unknown,,,unknown,,,yes,dt-iot-roam,yes,gsma-iot,unknown,,,unknown,,
-LV,lv-tele2,Tele2,Tele2,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LV,lv-bite,Bite,Bite,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-EE,ee-telia,Telia,Telia,unknown,,,unknown,,,yes,dt-iot-roam,yes,gsma-iot,unknown,,,unknown,,
-EE,ee-elisa,Elisa,Elisa,unknown,,,unknown,,,yes,dt-iot-roam,yes,gsma-iot,unknown,,,unknown,,
-EE,ee-tele2,Tele2,Tele2,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LU,lu-post,POST,POST,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LU,lu-orange,Orange,Orange,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-LU,lu-tango,Tango,Proximus,unknown,,,unknown,,,unlisted,,yes,gsma-iot,unknown,,,unknown,,
+LT,lt-telia,Telia,Telia,unknown,,,unknown,,,yes,"gsma-iot,monogoto-lpwa",yes,"gsma-iot,lansitec-lpwa",unknown,,,unknown,,
+LT,lt-bite,Bite,Bite,unknown,,,unknown,,,yes,monogoto-lpwa,yes,"monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+LT,lt-tele2,Tele2,Tele2,unknown,,,unknown,,,unlisted,,yes,lansitec-lpwa,unknown,,,unknown,,
+LV,lv-lmt,LMT,LMT,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+LV,lv-tele2,Tele2,Tele2,unknown,,,unknown,,,unlisted,,yes,"monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+LV,lv-bite,Bite,Bite,unknown,,,unknown,,,unlisted,,yes,"monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+EE,ee-telia,Telia,Telia,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem",yes,"gsma-iot,lansitec-lpwa",unknown,,,unknown,,
+EE,ee-elisa,Elisa,Elisa,unknown,,,unknown,,,yes,"dt-iot-roam,monogoto-lpwa,thingsmobile-ltem,lansitec-lpwa",yes,"gsma-iot,monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+EE,ee-tele2,Tele2,Tele2,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
+LU,lu-post,POST,POST,unknown,,,unknown,,,yes,"monogoto-lpwa,thingsmobile-ltem",unlisted,,unknown,,,unknown,,
+LU,lu-orange,Orange,Orange,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
+LU,lu-tango,Tango,Proximus,unknown,,,unknown,,,yes,monogoto-lpwa,yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
 CY,cy-cyta,Cytamobile-Vodafone,Cyta,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 CY,cy-epic,Epic,Epic,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
 CY,cy-primetel,PrimeTel,PrimeTel,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-MT,mt-go,GO,GO,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-MT,mt-epic,Epic,Epic,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-MT,mt-melita,Melita,Melita,unknown,,,unknown,,,unlisted,,yes,gsma-iot,unknown,,,unknown,,
-IS,is-siminn,Síminn,Síminn,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-IS,is-nova,Nova,Nova,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
-IS,is-syn,Sýn,Sýn,unknown,,,unknown,,,unlisted,,unlisted,,unknown,,,unknown,,
+MT,mt-go,GO,GO,unknown,,,unknown,,,unlisted,,yes,monogoto-lpwa,unknown,,,unknown,,
+MT,mt-epic,Epic,Epic,unknown,,,unknown,,,unlisted,,yes,"monogoto-lpwa,lansitec-lpwa",unknown,,,unknown,,
+MT,mt-melita,Melita,Melita,unknown,,,unknown,,,unlisted,,yes,"gsma-iot,monogoto-lpwa",unknown,,,unknown,,
+IS,is-siminn,Síminn,Síminn,unknown,,,unknown,,,yes,thingsmobile-ltem,unlisted,,unknown,,,unknown,,
+IS,is-nova,Nova,Nova,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,
+IS,is-syn,Sýn,Sýn,unknown,,,unknown,,,yes,monogoto-lpwa,unlisted,,unknown,,,unknown,,

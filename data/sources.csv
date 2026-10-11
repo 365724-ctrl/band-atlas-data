@@ -284,7 +284,7 @@ kimovil-kw,C,Kimovil,Frequency checker: Kuwait,Kimovil 频段查询：科威特,
 powertec-ooredoo-kw,B,Powertec,"Ooredoo Kuwait: LTE on B3 (2013), LTE-A with B3 + B20 (2015); n78 from June 2019",Powertec：Ooredoo 科威特的 LTE 与 5G,https://portal.powertec.com.au/industry-resources/companies/ooredoo-kuwait,2026
 obg-kw,B,Oxford Business Group,Kuwait authorises all three operators to launch LTE on 1800 MHz (2012),牛津商业集团：科威特三家在 1800 MHz 上开通 LTE,https://oxfordbusinessgroup.com/reports/kuwait/2013-report/economy/fast-four-new-mobile-technologies-offer-competitive-advantages,2013
 prepaid-kw,C,Prepaid Data SIM Card Wiki,Kuwait: LTE mainly on 1800 MHz (B3) and 800 MHz (B20) across the operators,社区百科：科威特 LTE 以 B3、B20 为主,https://prepaid-data-sim-card.fandom.com/wiki/Kuwait,2026
-kimovil-il,C,Kimovil,Frequency checker: Israel,Kimovil 频段查询：以色列,https://www.kimovil.com/en/frequency-checker/IL,2026-09
+kimovil-il,C,Kimovil,Frequency checker: Israel (bands per operator),Kimovil 频段查询：以色列（各运营商频段）,https://www.kimovil.com/en/frequency-checker/IL,2026-10-10
 fierce-il,B,Fierce Network,Cellcom and Pelephone follow Partner with LTE launches in Israel (1800 MHz),Fierce：以色列三家在 1800 MHz 上开通 LTE,https://www.fierce-network.com/europe/cellcom-pelephone-follow-partner-lte-launches-israel,2014
 capacity-il,B,Capacity Media,"Israel awards 1800 MHz for 4G: Pelephone, Partner, Golan, HOT Mobile, Marathon 018, Cellcom",Capacity：以色列 1800 MHz 4G 频谱分配,https://capacitymedia.com/article/29ot6yez83ccbe5yq73ls/news/israel-awards-1800mhz-band-for-4g,2015
 partner-5g,A,Partner Communications,"Frequencies tender results: 10 MHz at 700 MHz, 20 MHz at 2600 MHz and 100 MHz at 3500 MHz for Partner and HOT Mobile",Partner 公告：5G 频谱招标结果（700 / 2600 / 3500 MHz）,https://www.partner.co.il/globalassets/global/PR_5Gtender_EngHeb_isa.pdf,2020-08-13
@@ -311,9 +311,9 @@ pds-ru,D,Prepaid Data SIM Card wiki,"Russia: 4G on 800 and 2600 MHz on all opera
 wiki-lte-asia,C,Wikipedia,List of LTE networks in Asia (bands in use by operator),维基百科：亚洲 LTE 网络列表（各运营商在用频段）,https://en.wikipedia.org/wiki/List_of_LTE_networks_in_Asia,2026-10-06
 wiki-lte-world,C,Wikipedia,"List of LTE networks (Americas, Caribbean and Oceania: bands by operator)",维基百科：LTE 网络列表（美洲、加勒比与大洋洲各运营商频段）,https://en.wikipedia.org/wiki/List_of_LTE_networks,2026-10-06
 wiki-lte-africa,C,Wikipedia,List of LTE networks in Africa (bands by operator),维基百科：非洲 LTE 网络列表（各运营商频段）,https://en.wikipedia.org/wiki/List_of_LTE_networks_in_Africa,2026-10-06
-kimovil-cz,C,Kimovil,Frequency Checker: Czech Republic (bands by operator),Kimovil 频段查询：捷克（各运营商频段）,https://www.kimovil.com/en/frequency-checker/CZ,2026-10-06
-kimovil-hu,C,Kimovil,Frequency Checker: Hungary (bands by operator),Kimovil 频段查询：匈牙利（各运营商频段）,https://www.kimovil.com/en/frequency-checker/HU,2026-10-06
-kimovil-ro,C,Kimovil,Frequency Checker: Romania (bands by operator),Kimovil 频段查询：罗马尼亚（各运营商频段）,https://www.kimovil.com/en/frequency-checker/RO,2026-10-06
+kimovil-cz,C,Kimovil,Frequency checker: Czech Republic (bands per operator),Kimovil 频段查询：捷克（各运营商频段）,https://www.kimovil.com/en/frequency-checker/CZ,2026-10-10
+kimovil-hu,C,Kimovil,Frequency checker: Hungary (bands per operator),Kimovil 频段查询：匈牙利（各运营商频段）,https://www.kimovil.com/en/frequency-checker/HU,2026-10-10
+kimovil-ro,C,Kimovil,Frequency checker: Romania (bands per operator),Kimovil 频段查询：罗马尼亚（各运营商频段）,https://www.kimovil.com/en/frequency-checker/RO,2026-10-10
 kimovil-vn,C,Kimovil,Frequency checker · Vietnam,Kimovil 频段查询 · 越南,https://www.kimovil.com/en/frequency-checker/VN,2026-10-03
 cm-ph,C,CellMapper,Philippine networks: bands by operator,CellMapper：菲律宾各运营商的频段,https://docs.cellmapper.net/mw/Philippine_Network,2023-12-08
 cm-dito,C,CellMapper,"DITO Telecommunity: LTE and NR bands, with B34 never deployed",CellMapper：DITO 的 LTE 与 NR 频段（B34 从未部署）,https://docs.cellmapper.net/mw/Dito_Telecommunity,2026-10-03
@@ -323,14 +323,14 @@ kimovil-th,C,Kimovil,Frequency checker · Thailand,Kimovil 频段查询 · 泰�
 kimovil-my,C,Kimovil,Frequency checker · Malaysia,Kimovil 频段查询 · 马来西亚,https://www.kimovil.com/en/frequency-checker/MY,2026-10-03
 kimovil-ph,C,Kimovil,Frequency checker · Philippines,Kimovil 频段查询 · 菲律宾,https://www.kimovil.com/en/frequency-checker/PH,2026-10-03
 kimovil-co,C,Kimovil,Frequency checker · Colombia,Kimovil 频段查询 · 哥伦比亚,https://www.kimovil.com/es/frequency-checker/CO,2026-10-03
-kimovil-pe,C,Kimovil,Frequency checker · Peru,Kimovil 频段查询 · 秘鲁,https://www.kimovil.com/es/frequency-checker/PE,2026-10-03
+kimovil-pe,C,Kimovil,Frequency checker: Peru (bands per operator),Kimovil 频段查询：秘鲁（各运营商频段）,https://www.kimovil.com/fr/frequency-checker/PE,2026-10-10
 fc-pe,C,FrequencyCheck,Peru: carriers and bands in use (updated 2024-08-09),FrequencyCheck：秘鲁运营商与在用频段（2024-08-09 更新）,https://www.frequencycheck.com/countries/peru,2024-08-09
 kimovil-cl,C,Kimovil,Frequency checker · Chile,Kimovil 频段查询 · 智利,https://www.kimovil.com/es/frequency-checker/CL,2026-10-03
 kimovil-ar,C,Kimovil,Frequency checker · Argentina,Kimovil 频段查询 · 阿根廷,https://www.kimovil.com/es/frequency-checker/AR,2026-10-03
 kimovil-za,C,Kimovil,Frequency checker · South Africa,Kimovil 频段查询 · 南非,https://www.kimovil.com/es/frequency-checker/ZA,2026-10-03
 kimovil-om,C,Kimovil,Frequency checker · Oman,Kimovil 频段查询 · 阿曼,https://www.kimovil.com/en/frequency-checker/OM,2026-10-03
 kimovil-bh,C,Kimovil,Frequency checker · Bahrain,Kimovil 频段查询 · 巴林,https://www.kimovil.com/ru/frequency-checker/BH,2026-10-03
-kimovil-hk,C,Kimovil,"Frequency checker · Hong Kong, China",Kimovil 频段查询 · 中国香港,https://www.kimovil.com/de/frequency-checker/HK,2026-10-03
+kimovil-hk,C,Kimovil,"Frequency checker: Hong Kong, China (bands per operator)",Kimovil 频段查询：中国香港（各运营商频段）,https://www.kimovil.com/en/frequency-checker/HK,2026-10-10
 kimovil-tw,C,Kimovil,"Frequency checker · Taiwan, China",Kimovil 频段查询 · 中国台湾,https://www.kimovil.com/ru/frequency-checker/TW,2026-10-03
 kimovil-ie,C,Kimovil,Frequency checker · Ireland,Kimovil 频段查询 · 爱尔兰,https://www.kimovil.com/fr/frequency-checker/IE,2026-10-03
 kimovil-be,C,Kimovil,Frequency checker · Belgium,Kimovil 频段查询 · 比利时,https://www.kimovil.com/en/frequency-checker/BE,2026-10-03
@@ -397,6 +397,55 @@ dt-5g-roam,B,Deutsche Telekom,5G service footprint: roaming partners and their d
 dt-iot-roam,B,Deutsche Telekom IoT,"LTE-M and NB-IoT roaming partners in Europe, with deployment bands",德国电信物联网：欧洲 LTE-M 与 NB-IoT 漫游伙伴及部署频段,https://hub.iot.telekom.com/docs/device-to-cloud/general-info/roaming-network-info/,2026-10-06
 onomondo-ltem,C,Onomondo,Global LTE-M coverage: networks by country and status,Onomondo：全球 LTE-M 覆盖（按国家与状态）,https://onomondo.com/en-gb/coverage/lte-m/,2026-10-06
 fc-telekom-hu,C,FrequencyCheck,"Telekom Hungary: LTE and 5G NR bands (B28, n1, n28, n78 added August 2024)",FrequencyCheck：匈牙利 Telekom 的 LTE 与 5G NR 频段（2024 年 8 月加入 B28、n1、n28、n78）,https://www.frequencycheck.com/carriers/telekom-hungary,2026-10-06
+kimovil-hr,C,Kimovil,Frequency checker: Croatia (bands per operator),Kimovil 频段查询：克罗地亚（各运营商频段）,https://www.kimovil.com/pt/frequency-checker/HR,2026-10-10
+pedroc-fi,B,pedroc.co.uk,"Commercial mobile frequency deployment in Finland (carriers seen on air, EARFCN by operator)",pedroc.co.uk：芬兰商用移动频谱部署（实测各运营商频点）,https://www.pedroc.co.uk/international/finnish-commercial-mobile-spectrum,2026-10-10
+kimovil-gr,C,Kimovil,Frequency checker: Greece (bands per operator),Kimovil 频段查询：希腊（各运营商频段）,https://www.kimovil.com/en/frequency-checker/GR,2026-10-10
+mastdb-hu,B,Mast Database (mastdatabase.co.uk),Hungarian ARFCN list (carriers on air by operator),Mast Database：匈牙利在网频点（各运营商）,https://mastdatabase.co.uk/hu/arfcn-list/,2026-10-10
+kimovil-sk,C,Kimovil,Frequency checker: Slovakia (bands per operator),Kimovil 频段查询：斯洛伐克（各运营商频段）,https://www.kimovil.com/pt/frequency-checker/SK,2026-10-10
+mastdb-bg,B,Mast Database (mastdatabase.co.uk),Bulgarian ARFCN list (carriers on air by operator),Mast Database：保加利亚在网频点（各运营商）,https://mastdatabase.co.uk/bg/arfcn-list/,2026-10-10
+mastdb-ro,B,Mast Database (mastdatabase.co.uk),Romanian ARFCN list (carriers on air by operator),Mast Database：罗马尼亚在网频点（各运营商）,https://mastdatabase.co.uk/ro/arfcn-list/,2026-10-10
+msd-at,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Austria (carrier numbers observed, often with the licence record)",Mast Database 开放数据：奥地利各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/at/arfcn-list/,2026-10-10
+msd-au,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Australia (carrier numbers observed, often with the licence record)",Mast Database 开放数据：澳大利亚各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/au/arfcn-list/,2026-10-10
+msd-bg,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Bulgaria (carrier numbers observed, often with the licence record)",Mast Database 开放数据：保加利亚各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/bg/arfcn-list/,2026-10-10
+msd-de,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Germany (carrier numbers observed, often with the licence record)",Mast Database 开放数据：德国各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/de/arfcn-list/,2026-10-10
+msd-dk,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Denmark (carrier numbers observed, often with the licence record)",Mast Database 开放数据：丹麦各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/dk/arfcn-list/,2026-10-10
+msd-ee,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Estonia (carrier numbers observed, often with the licence record)",Mast Database 开放数据：爱沙尼亚各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/ee/arfcn-list/,2026-10-10
+msd-gb,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: United Kingdom (carrier numbers observed, often with the licence record)",Mast Database 开放数据：英国各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/gb/arfcn-list/,2026-10-10
+msd-hu,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Hungary (carrier numbers observed, often with the licence record)",Mast Database 开放数据：匈牙利各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/hu/arfcn-list/,2026-10-10
+msd-ie,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Ireland (carrier numbers observed, often with the licence record)",Mast Database 开放数据：爱尔兰各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/ie/arfcn-list/,2026-10-10
+msd-it,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Italy (carrier numbers observed, often with the licence record)",Mast Database 开放数据：意大利各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/it/arfcn-list/,2026-10-10
+msd-kr,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: South Korea (carrier numbers observed, often with the licence record)",Mast Database 开放数据：韩国各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/kr/arfcn-list/,2026-10-10
+msd-lt,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Lithuania (carrier numbers observed, often with the licence record)",Mast Database 开放数据：立陶宛各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/lt/arfcn-list/,2026-10-10
+msd-lv,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Latvia (carrier numbers observed, often with the licence record)",Mast Database 开放数据：拉脱维亚各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/lv/arfcn-list/,2026-10-10
+msd-mk,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: North Macedonia (carrier numbers observed, often with the licence record)",Mast Database 开放数据：北马其顿各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/mk/arfcn-list/,2026-10-10
+msd-pt,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Portugal (carrier numbers observed, often with the licence record)",Mast Database 开放数据：葡萄牙各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/pt/arfcn-list/,2026-10-10
+msd-ro,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Romania (carrier numbers observed, often with the licence record)",Mast Database 开放数据：罗马尼亚各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/ro/arfcn-list/,2026-10-10
+msd-rs,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Serbia (carrier numbers observed, often with the licence record)",Mast Database 开放数据：塞尔维亚各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/rs/arfcn-list/,2026-10-10
+msd-ru,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Russia (carrier numbers observed, often with the licence record)",Mast Database 开放数据：俄罗斯各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/ru/arfcn-list/,2026-10-10
+msd-tt,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Trinidad and Tobago (carrier numbers observed, often with the licence record)",Mast Database 开放数据：特立尼达和多巴哥各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/tt/arfcn-list/,2026-10-10
+msd-ua,B,"Mast Database · mobile-spectrum-data (open data, LGPL-3.0)","On-air 4G carriers by operator: Ukraine (carrier numbers observed, often with the licence record)",Mast Database 开放数据：乌克兰各运营商在网 4G 载波（实测频点，多附牌照记录）,https://mastdatabase.co.uk/ua/arfcn-list/,2026-10-10
+kimovil-si,C,Kimovil,Frequency checker: Slovenia (bands per operator),Kimovil 频段查询：斯洛文尼亚（各运营商频段）,https://www.kimovil.com/en/frequency-checker/SI,2026-10-10
+kimovil-lu,C,Kimovil,Frequency checker: Luxembourg (bands per operator),Kimovil 频段查询：卢森堡（各运营商频段）,https://www.kimovil.com/en/frequency-checker/LU,2026-10-10
+kimovil-is,C,Kimovil,Frequency checker: Iceland (bands per operator),Kimovil 频段查询：冰岛（各运营商频段）,https://www.kimovil.com/en/frequency-checker/IS,2026-10-10
+kimovil-cy,C,Kimovil,Frequency checker: Cyprus (bands per operator),Kimovil 频段查询：塞浦路斯（各运营商频段）,https://www.kimovil.com/fr/frequency-checker/CY,2026-10-10
+kimovil-bd,C,Kimovil,Frequency checker: Bangladesh (bands per operator),Kimovil 频段查询：孟加拉国（各运营商频段）,https://www.kimovil.com/en/frequency-checker/BD,2026-10-10
+kimovil-pk,C,Kimovil,Frequency checker: Pakistan (bands per operator),Kimovil 频段查询：巴基斯坦（各运营商频段）,https://www.kimovil.com/en/frequency-checker/PK,2026-10-10
+kimovil-mo,C,Kimovil,"Frequency checker: Macao, China (bands per operator)",Kimovil 频段查询：中国澳门（各运营商频段）,https://www.kimovil.com/en/frequency-checker/MO,2026-10-10
+kimovil-mt,C,Kimovil,Frequency checker: Malta (bands per operator),Kimovil 频段查询：马耳他（各运营商频段）,https://www.kimovil.com/en/frequency-checker/MT,2026-10-10
+kimovil-mm,C,Kimovil,Frequency checker: Myanmar (bands per operator),Kimovil 频段查询：缅甸（各运营商频段）,https://www.kimovil.com/ru/frequency-checker/MM,2026-10-10
+kimovil-ng,C,Kimovil,Frequency checker: Nigeria (bands per operator),Kimovil 频段查询：尼日利亚（各运营商频段）,https://www.kimovil.com/en/frequency-checker/NG,2026-10-10
+kimovil-ma,C,Kimovil,Frequency checker: Morocco (bands per operator),Kimovil 频段查询：摩洛哥（各运营商频段）,https://www.kimovil.com/en/frequency-checker/MA,2026-10-10
+monogoto-lpwa,B,Monogoto,"LP-WAN coverage: LTE-M and NB-IoT by network (verified on its SIMs, or launched per external sources)",Monogoto 低功耗网络覆盖表：逐网 LTE-M、NB-IoT（实测可用或运营商已商用）,https://docs.monogoto.io/getting-started/lp-wan-coverage.md,2026-10-10
+thingsmobile-ltem,C,Things Mobile,"LTE-M (Cat-M1) coverage by operator (IoT roaming SIM, list of 30 April 2025)",Things Mobile：各国 LTE-M（Cat-M1）可用运营商（物联网漫游卡，2025-04-30 版）,https://faq.thingsmobile.com/article/879-lte-m-cat-m-1-coverage,2026-10-10
+fc-ma-inwi,C,FrequencyCheck,Carrier bands: inwi (Morocco),FrequencyCheck 运营商频段：inwi（摩洛哥）,https://www.frequencycheck.com/carriers/inwi-morocco,2026-10-10
+fc-ma-maroctelecom,C,FrequencyCheck,Carrier bands: Maroc Telecom (Morocco),FrequencyCheck 运营商频段：Maroc Telecom（摩洛哥）,https://www.frequencycheck.com/carriers/maroc-telecom-morocco,2026-10-10
+fc-ng-mtn,C,FrequencyCheck,Carrier bands: MTN (Nigeria),FrequencyCheck 运营商频段：MTN（尼日利亚）,https://www.frequencycheck.com/carriers/mtn-nigeria,2026-10-10
+fc-ng-glo,C,FrequencyCheck,Carrier bands: Glo (Nigeria),FrequencyCheck 运营商频段：Glo（尼日利亚）,https://www.frequencycheck.com/carriers/glo-nigeria,2026-10-10
+powertec-mtn-ng,C,Powertec,Industry resources: MTN Nigeria (networks and bands),Powertec 行业资料：MTN Nigeria（网络与频段）,https://portal.powertec.com.au/industry-resources/companies/mtn-nigeria,2026-10-10
+powertec-glo-ng,C,Powertec,Industry resources: Glo Mobile Nigeria (networks and bands),Powertec 行业资料：Glo Mobile Nigeria（网络与频段）,https://portal.powertec.com.au/industry-resources/companies/glo-mobile-nigeria,2026-10-10
+mtn-ng-800-2025,B,Techeconomy,"NCC renews MTN Nigeria's two 800 MHz licences to 2034 (MTN notice to the Nigerian Exchange, January 2025)",NCC 将 MTN 尼日利亚两张 800 MHz 牌照续期至 2034 年（MTN 致尼日利亚交易所公告，2025 年 1 月）,https://techeconomy.ng/?p=151646,2026-10-10
+thisday-glo-2023,B,ThisDay,"Glo LTE-Advanced combines 700, 1,800 and 2,600 MHz carriers (June 2023)",Glo 4G+ 聚合 700、1800、2600 MHz 三个载波（2023 年 6 月）,https://thisdaylive.com/index.php/2023/06/17/amusan-reveals-the-power-of-glo-4g-lte-advanced-in-new-tvc,2026-10-10
+lansitec-lpwa,C,Lansitec,NB-IoT and Cat-M worldwide deployment table (operators and bands; first published March 2023),Lansitec：全球 NB-IoT 与 Cat-M 部署表（运营商与频段；2023 年 3 月首发）,https://www.lansitec.com/blogs/nb-iot-cat-m-worldwide-deployment/,2026-10-10
 miit-2607,B,新京报（工信部数据）,MIIT: Jan–Jul 2026 telecom statistics (5G base stations 5.154 million),工信部：2026 年前 7 个月通信业经济运行情况,https://www.bjnews.com.cn/detail/1788529133189333.html,2026-08
 miit-2607b,B,C114（工信微报）,MIIT: 5G mobile users pass 1.3 billion; 2.993 billion mobile IoT terminals,工信部：5G 手机用户超 13 亿；移动物联网终端 29.93 亿,https://m.c114.com.cn/w16-1316522.html,2026-08-28
 miit-2606,B,IT之家（工信部数据）,"MIIT: H1 2026 (5.102 million 5G base stations, 1.288 billion 5G users, 2.994 billion IoT terminals)",工信部：2026 年上半年通信业经济运行情况,https://www.ithome.com/0/984/299.htm,2026-07-31
