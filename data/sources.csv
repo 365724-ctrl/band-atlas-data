@@ -469,3 +469,9 @@ cp-iot-q2-25,C,LinkedIn (quoting Counterpoint),Q2 2025 module shipments +17% YoY
 berg-sat,B,Berg Insight (via IoT M2M Council),"Satellite IoT subscribers passed 5.8 million in 2024, 32.5 million by 2029; Iridium leads with 2.0 million",Berg Insight：卫星物联网用户 2024 年 580 万，2029 年 3250 万,https://iotm2mcouncil.org/iot-library/news/iot-newsdesk/satellite-iot-subscribers-to-top-40-cagr-says-berg/,2025-09-24
 abi-sat,B,ABI Research,Satellite IoT enters 2026 with NB-NTN: 13.6 million active connections in 2025 (+20.7%),ABI：2025 年卫星物联网活跃连接 1360 万,https://www.abiresearch.com/market-research/insight/7787414-satellite-iot-enters-2026-with-new-nb-ntn-?hsLang=en,2026
 abi-redcap,B,ABI Research,"RedCap module shipments by region (2029: China 31 million, US 13 million)",ABI：RedCap 模组分地区出货预测,https://abiresearch.com/news-resources/chart-data/redcap-module-shipments-by-region,2024-08
+att-cert,A,AT&T,AT&T IoT Devices: get certified (FAQ),AT&T IoT 设备：认证说明（常见问题）,https://iotdevices.att.com/faq.aspx,2026-10-19
+att-cert2,A,AT&T,AT&T IoT Devices: general device certification,AT&T IoT 设备：设备认证总则,https://iotdevices.att.com/contact.aspx,2026-10-19
+tmo-cert,A,T-Mobile Wholesale,T-Mobile IoT device certification,T-Mobile 物联网设备认证,https://wholesale.t-mobile.com/?p=117,2026-10-19
+vzw-od,A,Verizon ThingSpace,How can I get my device certified for the Verizon network? (Open Development),设备如何获得 Verizon 网络认证（Open Development）,https://thingspace.verizon.com/documentation/support/faq.html,2026-10-19
+vzw-od-letter,B,Advantech,Verizon Open Development certification letter for the ICR-2041 (validity five years),Verizon 为 ICR-2041 出具的 Open Development 认证函（有效期五年）,https://icr.advantech.com/support/router-models/download/863/icr-2041-od-cert-01232024.pdf,2024-01-23
+digi-ptcrb,B,Digi International,PTCRB certification overview for cellular M2M and IoT devices,蜂窝 M2M 与物联网设备的 PTCRB 认证概览,https://www.digi.com/videos/ptcrb-certification-overview-for-cellular-m2m-and,2026-10-19

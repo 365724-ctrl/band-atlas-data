@@ -21,7 +21,7 @@
 | `networks.csv` | Networks: market, operator, technologies and switch-off status | 465 |
 | `pulse.csv` | Network pulse: industry indicators over time, with sources | 48 |
 | `redcap_networks.csv` | 5G RedCap launches, deployments and trials | 27 |
-| `sources.csv` | Sources and evidence grades (A official / B industry / C distributors and media) | 470 |
+| `sources.csv` | Sources and evidence grades (A official / B industry / C distributors and media) | 476 |
 | `sunset.csv` | 2G, 3G and NB-IoT switch-off events | 77 |
 | `readiness.json` / `readiness.csv` | Global IoT readiness index: score, rank and the four parts (coverage, LTE-M/NB-IoT, 5G and RedCap, device fit) per country | 172 |
 | `quality.json` | The data-quality checks run before every update, and the cross-verification shares | — |
@@ -68,7 +68,7 @@ Found something out of date? Open an issue with a link to the operator's or make
 | `networks.csv` | 网络清单（国家、运营商、技术与退网状态） | 465 |
 | `pulse.csv` | 网络脉搏：行业指标的历史数据与来源 | 48 |
 | `redcap_networks.csv` | 5G RedCap 商用、部署与试验 | 27 |
-| `sources.csv` | 来源清单与证据等级（A 官方 / B 行业 / C 经销商与媒体） | 470 |
+| `sources.csv` | 来源清单与证据等级（A 官方 / B 行业 / C 经销商与媒体） | 476 |
 | `sunset.csv` | 2G、3G 与 NB-IoT 退网事件 | 77 |
 | `readiness.json` / `readiness.csv` | 全球物联网联接就绪指数：每个国家的分数、排名与四个分项（覆盖、LTE-M/NB-IoT、5G 与 RedCap、设备适配） | 172 |
 | `quality.json` | 每次更新前运行的数据校验与交叉印证比例 | — |
