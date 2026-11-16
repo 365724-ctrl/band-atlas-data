@@ -1,0 +1,25 @@
+{
+ "id": "fr-observatoire-page",
+ "country": "FR",
+ "publisher": "data.gouv.fr",
+ "what": "dataset page: lists the resources and their dates",
+ "url": "https://www.data.gouv.fr/api/1/datasets/observatoire-2g-3g-4g-5g/",
+ "fetched": "2026-11-16T16:27:44Z",
+ "ok": true,
+ "files": [
+  {
+   "url": "https://www.data.gouv.fr/api/1/datasets/observatoire-2g-3g-4g-5g/",
+   "name": "file",
+   "bytes": 16783,
+   "sha256": "5e6cb01b72fe6a5e6aa11ce5a89bed10fe1bdabb62e184caa201d139ca45d8d2",
+   "last_modified": null,
+   "content_type": null
+  }
+ ],
+ "status": 200,
+ "final_url": "https://www.data.gouv.fr/api/1/datasets/observatoire-2g-3g-4g-5g/",
+ "changed": [],
+ "new": [
+  "file"
+ ]
+}

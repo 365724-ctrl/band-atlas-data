@@ -1,0 +1,11 @@
+{
+ "id": "us-fcc-nbm-probe",
+ "country": "US",
+ "publisher": "FCC",
+ "what": "National Broadband Map: probe only (the data download needs choosing a provider; this records whether the listing answers)",
+ "url": "https://broadbandmap.fcc.gov/nbm/map/api/published/filing",
+ "fetched": "2026-11-16T16:27:44Z",
+ "ok": false,
+ "files": [],
+ "error": "HTTPError: HTTP Error 403: Forbidden"
+}
