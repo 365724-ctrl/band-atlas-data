@@ -4,7 +4,7 @@
  "publisher": "FCC",
  "what": "National Broadband Map: probe only (the data download needs choosing a provider; this records whether the listing answers)",
  "url": "https://broadbandmap.fcc.gov/nbm/map/api/published/filing",
- "fetched": "2026-11-16T16:27:44Z",
+ "fetched": "2026-11-16T16:56:05Z",
  "ok": false,
  "files": [],
  "error": "HTTPError: HTTP Error 403: Forbidden"

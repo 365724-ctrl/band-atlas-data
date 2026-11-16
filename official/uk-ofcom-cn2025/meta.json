@@ -4,7 +4,7 @@
  "publisher": "Ofcom",
  "what": "Connected Nations 2025 data downloads: the mobile coverage files linked from the page",
  "url": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-2025/data-downloads-2025",
- "fetched": "2026-11-16T16:27:44Z",
+ "fetched": "2026-11-16T16:56:05Z",
  "ok": false,
  "files": [],
  "error": "HTTPError: HTTP Error 403: Forbidden"
