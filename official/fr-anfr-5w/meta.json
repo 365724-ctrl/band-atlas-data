@@ -1,0 +1,48 @@
+{
+ "id": "fr-anfr-5w",
+ "country": "FR",
+ "publisher": "ANFR via data.gouv.fr",
+ "what": "Installations radioélectriques de plus de 5 watts, whole country (monthly ZIPs: stations, transmitters with their system such as '5G NR 3500', operators); summarised by tools/parse_anfr.py",
+ "url": "https://www.data.gouv.fr/api/1/datasets/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/",
+ "fetched": "2026-11-16T16:56:05Z",
+ "ok": true,
+ "files": [
+  {
+   "url": "https://static.data.gouv.fr/resources/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/20261106-083015/20261031-export-etalab-ref.zip",
+   "name": "20261031-export-etalab-ref.zip",
+   "bytes": 4810,
+   "sha256": "4489daf6514b81480a152529f2037035f7bda7643c278188cac5e9b4d4fa3bb7",
+   "last_modified": null,
+   "content_type": null
+  },
+  {
+   "url": "https://static.data.gouv.fr/resources/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/20261106-083007/20261031-export-etalab-data.zip",
+   "name": "20261031-export-etalab-data.zip",
+   "bytes": 64998169,
+   "sha256": "612ef26b513884fe2471d9cb5b2ded713d35331963b028fdfc9f8dbbbd2a0eb4",
+   "last_modified": null,
+   "content_type": null
+  }
+ ],
+ "status": 200,
+ "final_url": "https://www.data.gouv.fr/api/1/datasets/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/",
+ "resources": [
+  {
+   "title": "Tables de référence novembre 2026",
+   "url": "https://static.data.gouv.fr/resources/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/20261106-083015/20261031-export-etalab-ref.zip",
+   "last_modified": "2026-11-06T08:30:15.772000+00:00",
+   "filesize": 4810
+  },
+  {
+   "title": "Tables supports antennes émetteurs bandes novembre 2026",
+   "url": "https://static.data.gouv.fr/resources/donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1/20261106-083007/20261031-export-etalab-data.zip",
+   "last_modified": "2026-11-06T08:30:15.139000+00:00",
+   "filesize": 64998169
+  }
+ ],
+ "changed": [],
+ "new": [
+  "20261031-export-etalab-ref.zip",
+  "20261031-export-etalab-data.zip"
+ ]
+}

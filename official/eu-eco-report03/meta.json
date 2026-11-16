@@ -4,7 +4,7 @@
  "publisher": "CEPT ECO",
  "what": "ECO Report 03, the licensing of mobile bands in CEPT (PDF; a new edition changes the checksum)",
  "url": "https://docdb.cept.org/download/4989",
- "fetched": "2026-11-16T16:27:44Z",
+ "fetched": "2026-11-16T16:56:05Z",
  "ok": true,
  "files": [
   {
@@ -19,7 +19,5 @@
  "status": 200,
  "final_url": "https://docdb.cept.org/download/4989",
  "changed": [],
- "new": [
-  "Report03.pdf"
- ]
+ "new": []
 }

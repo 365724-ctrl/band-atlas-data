@@ -1,0 +1,212 @@
+{
+ "made": "2026-11-16T16:56:16Z",
+ "tables": {
+  "station": {
+   "file": "fr-anfr-5w__20261031-export-etalab-data.zip",
+   "member": "SUP_STATION.txt",
+   "bytes": 11228101
+  },
+  "support": {
+   "file": "fr-anfr-5w__20261031-export-etalab-data.zip",
+   "member": "SUP_SUPPORT.txt",
+   "bytes": 18693784
+  },
+  "emetteur": {
+   "file": "fr-anfr-5w__20261031-export-etalab-data.zip",
+   "member": "SUP_EMETTEUR.txt",
+   "bytes": 116454084
+  },
+  "exploitant": {
+   "file": "fr-anfr-5w__20261031-export-etalab-ref.zip",
+   "member": "SUP_EXPLOITANT.txt",
+   "bytes": 3362
+  }
+ },
+ "columns": {
+  "exploitant": [
+   "ADM_ID",
+   "ADM_LB_NOM"
+  ],
+  "station": [
+   "STA_NM_ANFR",
+   "ADM_ID",
+   "DEM_NM_COMSIS",
+   "DTE_IMPLANTATION",
+   "DTE_MODIF",
+   "DTE_EN_SERVICE",
+   "STA_NM_USER"
+  ],
+  "emetteur": [
+   "EMR_ID",
+   "EMR_LB_SYSTEME",
+   "STA_NM_ANFR",
+   "AER_ID",
+   "EMR_DT_SERVICE"
+  ]
+ },
+ "transmitters_read": 2464000,
+ "operators": {
+  "BOUYGUES TELECOM": {
+   "5G NR 2100": 22620,
+   "5G NR 3500": 13074,
+   "GSM 1800": 139,
+   "GSM 900": 19281,
+   "LTE 1800": 25891,
+   "LTE 2100": 12921,
+   "LTE 2600": 19239,
+   "LTE 700": 27873,
+   "LTE 800": 33622,
+   "UMTS 2100": 596,
+   "UMTS 900": 30678
+  },
+  "SFR": {
+   "5G NR 2100": 16173,
+   "5G NR 3500": 12613,
+   "GSM 1800": 115,
+   "GSM 900": 20361,
+   "LTE 1800": 24675,
+   "LTE 2100": 22621,
+   "LTE 2600": 17724,
+   "LTE 700": 22942,
+   "LTE 800": 32192,
+   "UMTS 2100": 4173,
+   "UMTS 900": 30416
+  },
+  "ORANGE": {
+   "5G NR 1400 Expe": 6,
+   "5G NR 2100": 5001,
+   "5G NR 26 GHz Expe": 1,
+   "5G NR 3500": 16964,
+   "5G NR 3800-4200 Expe": 3,
+   "5G NR 700": 15870,
+   "GSM 1800": 6,
+   "GSM 900": 906,
+   "LTE 1800": 27316,
+   "LTE 2100": 19747,
+   "LTE 2600": 14490,
+   "LTE 700": 25421,
+   "LTE 800": 34037,
+   "LTE 900": 329,
+   "UMTS 2100": 1149,
+   "UMTS 900": 30977
+  },
+  "FREE MOBILE": {
+   "5G NR 2100": 44,
+   "5G NR 3500": 13456,
+   "5G NR 700": 26368,
+   "LTE 1800": 26918,
+   "LTE 2100": 24721,
+   "LTE 2600": 24501,
+   "LTE 700": 33314,
+   "LTE 800": 6738,
+   "LTE 900": 26774,
+   "UMTS 2100": 25,
+   "UMTS 900": 6791
+  },
+  "OUTREMER TELECOM": {
+   "5G NR 3500": 234,
+   "GSM 900": 506,
+   "LTE 1800": 513,
+   "LTE 2100": 488,
+   "LTE 2600": 504,
+   "LTE 700": 305,
+   "LTE 800": 507,
+   "UMTS 2100": 493,
+   "UMTS 900": 488
+  },
+  "SNCF RÃ©seau": {
+   "GSM R": 3779
+  },
+  "SRR": {
+   "5G NR 3500": 265,
+   "GSM 1800": 2,
+   "GSM 900": 461,
+   "LTE 1800": 466,
+   "LTE 2100": 371,
+   "LTE 2600": 466,
+   "LTE 700": 336,
+   "LTE 800": 474,
+   "UMTS 2100": 381,
+   "UMTS 900": 476
+  },
+  "DIGICEL": {
+   "5G NR 3500": 94,
+   "5G NR 700": 53,
+   "LTE 1800": 475,
+   "LTE 2100": 473,
+   "LTE 2600": 470,
+   "LTE 700": 87,
+   "LTE 800": 133,
+   "LTE 900": 299,
+   "UMTS 2100": 492,
+   "UMTS 900": 475
+  },
+  "TELCO OI": {
+   "5G NR 3500": 207,
+   "5G NR 700": 272,
+   "GSM 1800": 2,
+   "GSM 900": 355,
+   "LTE 1800": 355,
+   "LTE 2100": 291,
+   "LTE 2600": 321,
+   "LTE 700": 49,
+   "LTE 800": 355,
+   "UMTS 2100": 355,
+   "UMTS 900": 355
+  },
+  "FREE CARAIBES": {
+   "5G NR 3500": 73,
+   "5G NR 700": 55,
+   "LTE 1800": 473,
+   "LTE 2100": 473,
+   "LTE 2600": 469,
+   "LTE 700": 20,
+   "LTE 800": 360,
+   "LTE 900": 72,
+   "UMTS 2100": 473,
+   "UMTS 900": 418
+  },
+  "Gouv Nelle CalÃ©donie (OPT)": {
+   "5G NR 700": 18,
+   "GSM 900": 272,
+   "LTE 1800": 252,
+   "LTE 2100": 60,
+   "LTE 2600": 1,
+   "LTE 2600 P": 4,
+   "LTE 800": 531,
+   "LTE 900": 6,
+   "UMTS 2100": 182,
+   "UMTS 900": 501
+  },
+  "ONATI": {
+   "5G NR 3500": 28,
+   "GSM 900": 370,
+   "LTE 1800": 245,
+   "LTE 2100": 221,
+   "LTE 2600": 119,
+   "LTE 800": 352,
+   "UMTS 2100": 7,
+   "UMTS 900": 256
+  },
+  "ZEOP": {
+   "5G NR 3500": 50,
+   "LTE 1800": 275,
+   "LTE 2100": 275,
+   "LTE 2600": 275,
+   "LTE 700": 245,
+   "UMTS 900": 270
+  },
+  "PMT/VODAFONE": {
+   "5G NR 3500": 40,
+   "GSM 900": 183,
+   "LTE 1800": 116,
+   "LTE 2100": 178,
+   "LTE 2600": 82,
+   "LTE 700": 98,
+   "LTE 800": 176,
+   "UMTS 900": 183
+  }
+ },
+ "other_holders": 16,
+ "note": "stations (distinct STA_NM_ANFR) per operator and system; a system with 100 stations or more is on air nationally"
+}
