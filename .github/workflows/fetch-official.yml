@@ -1,0 +1,52 @@
+name: Fetch official files
+
+on:
+  schedule:
+    - cron: '10 2 * * 1'        # every Monday at 10:10 Beijing time; each entry has its own cycle in official/manifest.json
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Fetch every entry now, whatever its cycle'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-official
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Fetch what is due
+        run: python3 tools/fetch_official.py ${{ inputs.force && '--force' || '' }}
+
+      - name: Attach the raw files to the release "official-data"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -d raw ] && [ -n "$(ls -A raw)" ]; then
+            gh release view official-data >/dev/null 2>&1 || gh release create official-data --title "Official files (raw)" --notes "Raw official files fetched by the workflow; each upload replaces the previous copy of the same file. What each file is: official/manifest.json."
+            for f in raw/*; do [ "$(stat -c %s "$f")" -lt 1900000000 ] && gh release upload official-data "$f" --clobber || echo "::warning::$f is too large for a release asset"; done
+          else
+            echo "Nothing new to attach"
+          fi
+
+      - name: Commit what was found
+        run: |
+          rm -rf raw
+          if [ -n "$(git status --porcelain official)" ]; then
+            git config user.name "band-atlas-sync"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add official
+            git commit -m "Official files: fetch of $(date -u +%F)"
+            git pull --rebase -q && git push
+          else
+            echo "No changes"
+          fi

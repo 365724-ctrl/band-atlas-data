@@ -1,0 +1,11 @@
+{
+ "about": "Official files Band Atlas reads. Each entry is fetched on schedule by .github/workflows/fetch-official.yml; what was found is written to official/<id>/meta.json and a short sample to official/<id>/sample.txt. Raw files are attached to the release 'official-data'.",
+ "items": [
+  {"id": "fr-observatoire-csv", "country": "FR", "publisher": "ANFR / ARCEP via data.gouv.fr", "what": "Observatoire 2G 3G 4G 5G (CSV)", "url": "https://www.data.gouv.fr/api/1/datasets/r/1944c70e-b4cd-4690-aa1f-34529e5cd791", "cycle_days": 30},
+  {"id": "fr-observatoire-zip", "country": "FR", "publisher": "ANFR / ARCEP via data.gouv.fr", "what": "Observatoire 2G 3G 4G 5G (ZIP)", "url": "https://www.data.gouv.fr/api/1/datasets/r/073a8039-5c1c-4760-8e8c-3a115689e449", "cycle_days": 30},
+  {"id": "fr-observatoire-page", "country": "FR", "publisher": "data.gouv.fr", "what": "dataset page: lists the resources and their dates", "url": "https://www.data.gouv.fr/api/1/datasets/observatoire-2g-3g-4g-5g/", "cycle_days": 30},
+  {"id": "uk-ofcom-cn2025", "country": "GB", "publisher": "Ofcom", "what": "Connected Nations 2025 data downloads: the mobile coverage files linked from the page", "url": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-2025/data-downloads-2025", "follow": "(?i)mobile[^\"']*\\.(zip|csv|xlsx)", "cycle_days": 91},
+  {"id": "eu-eco-report03", "country": "EU", "publisher": "CEPT ECO", "what": "ECO Report 03, the licensing of mobile bands in CEPT (PDF; a new edition changes the checksum)", "url": "https://docdb.cept.org/download/4989", "cycle_days": 30},
+  {"id": "us-fcc-nbm-probe", "country": "US", "publisher": "FCC", "what": "National Broadband Map: probe only (the data download needs choosing a provider; this records whether the listing answers)", "url": "https://broadbandmap.fcc.gov/nbm/map/api/published/filing", "probe": true, "cycle_days": 30}
+ ]
+}
