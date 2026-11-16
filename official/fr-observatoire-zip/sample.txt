@@ -1,7 +1,0 @@
-=== 234400034_observatoire2g-3g-4g-2018.zip (6272362 bytes)
-ZIP: 5 files
-  234400034_observatoire2g-3g-4g-2018.prj  143 bytes
-  234400034_observatoire2g-3g-4g-2018.cpg  5 bytes
-  234400034_observatoire2g-3g-4g-2018.dbf  276370609 bytes
-  234400034_observatoire2g-3g-4g-2018.shp  1212248 bytes
-  234400034_observatoire2g-3g-4g-2018.shx  346428 bytes

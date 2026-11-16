@@ -27,6 +27,10 @@ jobs:
       - name: Fetch what is due
         run: python3 tools/fetch_official.py ${{ inputs.force && '--force' || '' }}
 
+      - name: Summarise ANFR's national file (stations per operator and system)
+        run: |
+          if ls raw/fr-anfr-5w__*.zip >/dev/null 2>&1; then python3 tools/parse_anfr.py raw || echo "::warning::the ANFR summary was not written"; else echo "No new ANFR file"; fi
+
       - name: Attach the raw files to the release "official-data"
         env:
           GH_TOKEN: ${{ github.token }}

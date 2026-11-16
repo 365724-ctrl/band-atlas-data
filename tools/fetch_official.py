@@ -4,17 +4,24 @@ For every item: download (or probe), then write official/<id>/meta.json (address
 and official/<id>/sample.txt (the first lines of a CSV, the keys of a JSON, the file list of a ZIP, the first page text markers of a PDF).
 Raw files go to ./raw/ for the workflow to attach to the release; nothing large is committed to the repository.
 usage: fetch_official.py [--only ID] [--force]"""
-import csv, datetime, hashlib, io, json, os, re, sys, urllib.parse, urllib.request, zipfile
+import csv, datetime, hashlib, io, json, os, re, sys, urllib.error, urllib.parse, urllib.request, zipfile
 
 UA = 'band-atlas-official-fetch (github.com/365724-ctrl/band-atlas-data)'
 NOW = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0, tzinfo=None)
 
+FULL = {'User-Agent': 'Mozilla/5.0 (compatible; band-atlas-official-fetch/1.0; +https://github.com/365724-ctrl/band-atlas-data)', 'Accept': 'text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-GB,en;q=0.7'}      # still says who is asking; some sites refuse a request without the usual Accept headers
 def get(url, limit=400 * 2 ** 20):
-    req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': '*/*'})
-    with urllib.request.urlopen(req, timeout=180) as r:
-        body = r.read(limit + 1)
-        if len(body) > limit: raise ValueError('larger than %d MB' % (limit // 2 ** 20))
-        return r.status, dict(r.headers), body, r.geturl()
+    """One download. A site that answers 403 to the plain request (Ofcom, the FCC) is asked once more with the full set of usual headers, under the same
+    name. A site that still refuses is not worked around: the entry is reported as failed and fetched another way (by hand, or from the project's server)."""
+    for hdr in ({'User-Agent': UA, 'Accept': '*/*'}, FULL):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=180) as r:
+                body = r.read(limit + 1)
+                if len(body) > limit: raise ValueError('larger than %d MB' % (limit // 2 ** 20))
+                return r.status, dict(r.headers), body, r.geturl()
+        except urllib.error.HTTPError as e:
+            if e.code != 403 or hdr is FULL: raise
 
 def sample(body, name, ctype):
     low = (name or '').lower(); head = body[:4]
@@ -61,6 +68,17 @@ def one(it, force):
                 try: s2, h2, b2, f2 = get(u); targets.append((u, h2, b2, f2))
                 except Exception as e: meta.setdefault('errors', []).append('%s: %s: %s' % (u, type(e).__name__, str(e)[:120]))
             if not links: open(os.path.join(d, 'sample.txt'), 'w', encoding='utf-8').write('no link on the page matches %s\n' % it['follow'] + sample(body, 'page.html', hd.get('Content-Type')))
+        if it.get('api_latest'):      # the entry is a data.gouv.fr dataset (API): the newest resources whose title or address matches, `take` of them
+            res = [x for x in json.loads(body.decode('utf-8', 'replace')).get('resources') or [] if re.search(it['api_latest'], '%s %s' % (x.get('title') or '', x.get('url') or ''))]
+            res.sort(key=lambda x: str(x.get('last_modified') or x.get('created_at') or ''), reverse=True); res = res[:int(it.get('take') or 1)]
+            meta['resources'] = [{'title': x.get('title'), 'url': x.get('url'), 'last_modified': x.get('last_modified'), 'filesize': x.get('filesize')} for x in res]; targets = []
+            was_res = {x.get('url') for x in old.get('resources') or []}
+            if res and not force and old.get('ok') and {x.get('url') for x in res} <= was_res:      # the same edition as last time: nothing to download again
+                meta['files'] = old.get('files') or []; meta['ok'] = True; meta['changed'] = []; meta['new'] = []; meta['same_edition'] = True
+                json.dump(meta, open(mp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1); print('%-24s same edition as last time (%s)' % (it['id'], (res[0].get('title') or '')[:60])); return
+            for x in res:
+                try: s2, h2, b2, f2 = get(x['url'], 1500 * 2 ** 20); targets.append((x['url'], h2, b2, f2))
+                except Exception as e: meta.setdefault('errors', []).append('%s: %s: %s' % (x.get('url'), type(e).__name__, str(e)[:120]))
         smp = []
         for u, h, b, f in targets:
             name = re.sub(r'[^A-Za-z0-9._-]', '_', (re.search(r'filename="?([^";]+)', h.get('Content-Disposition') or '') or [None, os.path.basename(urllib.parse.urlparse(f).path) or 'file'])[1])[:80]
